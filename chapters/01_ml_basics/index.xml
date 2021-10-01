@@ -57,7 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-06-riskminimization/</guid>
-      <description>&lt;p&gt;In order to find &amp;ldquo;good&amp;rdquo; models we need a concept to evaluate and compare models. To this end, the concepts of &lt;em&gt;loss function&lt;/em&gt;, &lt;em&gt;risk&lt;/em&gt; and &lt;em&gt;empirical risk minimization&lt;/em&gt; are introduced.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In order to find good models we need a concept to evaluate and compare models. To this end, the concepts of &lt;em&gt;loss function&lt;/em&gt;, &lt;em&gt;risk&lt;/em&gt; and &lt;em&gt;empirical risk minimization&lt;/em&gt; are introduced.&lt;/p&gt;</description>
     </item>
     
     <item>
