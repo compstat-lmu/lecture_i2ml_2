@@ -93,7 +93,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-01-losses/</guid>
-      <description>&lt;p&gt;(L1) and L2 are two essential loss functions used for evaluating the performance of regression models. This section defines L1 and L2 loss and explains the differences.&lt;/p&gt;</description>
+      <description>&lt;p&gt;$L1$ and L2 are two essential loss functions used for evaluating the performance of regression models. This section defines L1 and L2 loss and explains the differences.&lt;/p&gt;</description>
     </item>
     
     <item>
