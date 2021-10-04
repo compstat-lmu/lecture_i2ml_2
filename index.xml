@@ -165,7 +165,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-01-intro/</guid>
-      <description>&lt;p&gt;It is a crucial part of machine learning to evaluate the performance of a model. We will explain the concept of generalization error and the difference between inner and outer loss.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It is a crucial part of machine learning to evaluate the performance of a learner. We will explain the concept of generalization error and the difference between inner and outer loss.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,7 +183,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-03-measures-classification/</guid>
-      <description>&lt;p&gt;Analogous to regression, we consider essential performance measures for classification. As a classifier predicts either class labels or scores/probabilities, its performance can be evaluated based on these two notions. We show some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). In addition, we will see confusion matrices´ and learn about costs.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Analogous to regression, we consider essential performance measures for classification. As a classifier predicts either class labels or scores/probabilities, its performance can be evaluated based on these two notions. We show some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). In addition, we will see confusion matrices and learn about costs.&lt;/p&gt;</description>
     </item>
     
     <item>
