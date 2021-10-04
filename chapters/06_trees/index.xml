@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chapter 5: Classification and Regression Trees (CART) on Introduction to Machine Learning (I2ML)</title>
+    <title>Chapter 6: Classification and Regression Trees (CART) on Introduction to Machine Learning (I2ML)</title>
     <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/</link>
-    <description>Recent content in Chapter 5: Classification and Regression Trees (CART) on Introduction to Machine Learning (I2ML)</description>
+    <description>Recent content in Chapter 6: Classification and Regression Trees (CART) on Introduction to Machine Learning (I2ML)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 5.1: Introduction</title>
+      <title>Chapter 6.1: Introduction</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.2: Splitting Criteria</title>
+      <title>Chapter 6.2: Splitting Criteria</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-02-splitcriteria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.3: Growing a Tree</title>
+      <title>Chapter 6.3: Growing a Tree</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-03-treegrowing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.4: Computational Aspects of Finding Splits</title>
+      <title>Chapter 6.4: Computational Aspects of Finding Splits</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-04-splitcomputation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.5: Stopping Criteria &amp; Pruning</title>
+      <title>Chapter 6.5: Stopping Criteria &amp; Pruning</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-05-stoppingpruning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.6: Discussion</title>
+      <title>Chapter 6.6: Discussion</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-06-discussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapters</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 7: Random Forests</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,10 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapters</h1>
+<h1>Chapter 7: Random Forests</h1>
 
-<p></p>
+<p><p>This chapter introduces bagging as method to increase the performance of trees. A modification of bagging leads to random forests. We explain the main idea of random forests, benchmark their performance with the methods seen so far and show how to quantify the impact of a single feature on the performance of the random forest as well as how to compute proximities between observations based on random forests.</p>
+</p>
 
 
 <div class="chapter_overview">
@@ -56,64 +57,61 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/01_ml_basics/">Chapter 1: ML Basics</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-01-bagging/">Chapter 7.1: Bagging Ensembles</a>
     
       
-        <p>This chapter introduces the basic concepts of machine learning. We focus on supervised learning, explain the difference between regression and classification, show how to evaluate and compare machine learning models and formalize the concept of learning.</p>
+        <p>Bagging (bootstrap aggregation) is a method for combining many models into a meta-model, which often works much better than its individual components. In this section, we present the basic idea of bagging and explain why and when bagging works.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/02_supervised_regression/">Chapter 2: Supervised Regression</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-02-intro/">Chapter 7.2: Introduction</a>
     
       
-        <p>This chapter treats the supervised regression task in more detail. We will see different loss functions for regression, how a linear regression model can be used from a machine learning perspective, and how to extend it with polynomials for greater flexibility.</p>
+        <p>In this section we investigate random forests, a modification of bagging for trees. We illustrate the effect of the ensemble size and show how to compute out-of-bag error estimates.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/">Chapter 3: Supervised Classification</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/">Chapter 7.3: Benchmarking Trees, Forests, and Bagging K-NN</a>
     
       
-        <p>This chapter treats the supervised classification task in more detail. We will see examples of binary and multi-class classification and the differences between discriminative and generative approaches. In particular, we will address logistic regression, linear and quadratic discriminant analysis, and naive Bayes classifiers.</p>
+        <p>We compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/">Chapter 4: Performance Evaluation</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-04-featureimportance/">Chapter 7.4: Feature Importance</a>
     
       
-        <p>This chapter treats the challenge of evaluating the performance of a model. We will introduce different performance measures for regression and classification tasks, explain the problem of overfitting as well as the difference between training and test error, and finally present a variety of resampling techniques.</p>
+        <p>In a complex machine learning model, the contributions of the different features to the model performance are difficult to evaluate. The concept of feature importance allows to quantify these effects for random forests.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/05_knn/">Chapter 5: k-Nearest Neighbors (k-NN)</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-05-proximities/">Chapter 7.5: Proximities</a>
     
       
-        <p>This chapter addresses \(k\)-nearest neighbors, a distance-based algorithm suited to both regression and classification. Predictions are made based upon neighboring observations, assuming feature similarity translates to target similarity.</p>
+        <p>The term proximity refers to the &amp;ldquo;closeness&amp;rdquo; between pairs of cases. Proximities are calculated for each pair of observations and can be derived directly from random forests.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/06_trees/">Chapter 6: Classification and Regression Trees (CART)</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/07-06-discussion/">Chapter 7.6: Discussion</a>
     
       
-        <p>This chapter introduces Classification and Regression Trees (CART), a well-established machine learning procedure. We explain the main idea and give details on splitting criteria, discuss computational aspects of growing a tree, and illustrate the idea of stopping criteria and pruning.</p>
-      
-      
-</li>
-
-<li>
-    <a class="title" href="/lecture_i2ml_2/chapters/07_forests/">Chapter 7: Random Forests</a>
-    
-      
-        <p>This chapter introduces bagging as method to increase the performance of trees. A modification of bagging leads to random forests. We explain the main idea of random forests, benchmark their performance with the methods seen so far and show how to quantify the impact of a single feature on the performance of the random forest as well as how to compute proximities between observations based on random forests.</p>
+        <p>In this section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.
+</p>
       
       
 </li>

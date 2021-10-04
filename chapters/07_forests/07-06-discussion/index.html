@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 6.4: Computational Aspects of Finding Splits</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 7.6: Discussion</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 6.4: Computational Aspects of Finding Splits</h1>
-<p>In this section, we explain the computational aspects of the node-splitting procedure, especially for nominal features. In addition, we illustrate how to deal with missing values.</p>
+<h1>Chapter 7.6: Discussion</h1>
+<p>In this section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/RujQ_xP-NFA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/9bqNhq6OUUk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_cart_splitcomputation_pdf">
-    <button class="btn btn-primary" id="prev_slides_cart_splitcomputation_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_forests_discussion_pdf">
+    <button class="btn btn-primary" id="prev_slides_forests_discussion_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_cart_splitcomputation_pdf"></span> / <span id="page_count_slides_cart_splitcomputation_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_forests_discussion_pdf"></span> / <span id="page_count_slides_forests_discussion_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_cart_splitcomputation_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/slides-cart-splitcomputation.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_cart_splitcomputation_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_forests_discussion_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/slides-forests-discussion.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_forests_discussion_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_cart_splitcomputation_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_cart_splitcomputation_pdf"></canvas>
+<div id="embed-pdf-container_slides_forests_discussion_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_forests_discussion_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/06_trees\/slides-cart-splitcomputation.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/07_forests\/slides-forests-discussion.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_cart_splitcomputation_pdf = document.getElementById('the-canvas_slides_cart_splitcomputation_pdf'),
-    ctx = canvas_slides_cart_splitcomputation_pdf.getContext('2d');
+    canvas_slides_forests_discussion_pdf = document.getElementById('the-canvas_slides_forests_discussion_pdf'),
+    ctx = canvas_slides_forests_discussion_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_cart_splitcomputation_pdf.height = viewport.height;
-    canvas_slides_cart_splitcomputation_pdf.width = viewport.width;
+    canvas_slides_forests_discussion_pdf.height = viewport.height;
+    canvas_slides_forests_discussion_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_cart_splitcomputation_pdf').textContent = num;
+  document.getElementById('page_num_slides_forests_discussion_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_cart_splitcomputation_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_forests_discussion_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_cart_splitcomputation_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_forests_discussion_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_cart_splitcomputation_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_forests_discussion_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_cart_splitcomputation_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_forests_discussion_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -192,12 +192,10 @@ shuffle_questions: false
 
 ## Which statements are true? 
 
-- [x] To find optimal splits, one iterates over all features, and for each feature over all possible split points.
-- [ ] To find optimal splits, we use the one that splits the data approximately in half in each step.
-- [x] To find optimal splits, we evaluate the possible splits only on the data that ended up in the parent node we are trying to split.
-- [x] The optimal split results in the lowest sum of empirical risks in the child nodes.
-- [ ] Monotone transformations of several features will change the structure of the tree.
-- [x] The CART algorithm cannot go on training if every node contains exactly one observation.
+- [x] To compute permutation variable importance for feature $j$, we permute the feature and see how the performance changes (in OOB observations).
+- [ ] The random forest is a bad out-of-the box model and requires tuning of hyperparameters.
+- [x] Random forests and trees can be used for high-dimensional data.
+- [ ] Proximities are used in replacing missing data, but not in locating outliers.
 
 
 </div>
@@ -205,10 +203,8 @@ shuffle_questions: false
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-03-treegrowing/">&#xab; Chapter 6.3: Growing a Tree</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-05-proximities/">&#xab; Chapter 7.5: Proximities</a></li>
 
-
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-05-stoppingpruning/">Chapter 6.5: Stopping Criteria &amp; Pruning &#xbb;</a></li>
 
 </ul>
 
