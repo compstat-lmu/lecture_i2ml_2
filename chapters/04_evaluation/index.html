@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
+
+
+<title>Introduction to Machine Learning (I2ML) | Chapter 4: Performance Evaluation</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/lecture_i2ml_2/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/lecture_i2ml_2/favicon-16x16.png">
+<link rel="manifest" href="/lecture_i2ml_2/site.webmanifest">
+<link rel="mask-icon" href="/lecture_i2ml_2/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+</head><body>
+<img id="logo" src="/lecture_i2ml_2/i2ml.svg" />
+
+<div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+        
+        <a class="nav-link" href="/lecture_i2ml_2">
+        
+        Home
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/chapters/">
+        
+        Chapters
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/appendix/">
+        
+        Appendix
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/team/">
+        
+        Team
+        </a>
+        
+    </nav>
+</div><div id="content" class="container">
+<h1>Chapter 4: Performance Evaluation</h1>
+
+<p><p>This chapter treats the challenge of evaluating the performance of a model. We will introduce different performance measures for regression and classification tasks, explain the problem of overfitting as well as the difference between training and test error, and finally present a variety of resampling techniques.</p>
+</p>
+
+
+<div class="chapter_overview">
+<ul class="list-unstyled">
+
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-01-intro/">Chapter 4.1: Introduction</a>
+    
+      
+        <p>It is a crucial part of machine learning to evaluate the performance of a model. We will explain the concept of generalization error and the difference between inner and outer loss.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-02-measures-regression/">Chapter 4.2: Measures Regression</a>
+    
+      
+        <p>In this section we familiarize ourselves with essential performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of $R^2$ are discussed.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-03-measures-classification/">Chapter 4.3: Measures Classification</a>
+    
+      
+        <p>Analogous to regression, we consider essential performance measures for classification. As a classifier predicts either class labels or scores/probabilities, its performance can be evaluated based on these two notions. We show some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). In addition, we will see confusion matrices´ and learn about costs.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-04-measures-classification-roc/">Chapter 4.4: Measures Classification ROC</a>
+    
+      
+        <p>From the confusion matrix we can calculate a variety of &amp;ldquo;ROC&amp;rdquo; metrics. Among others, we will explain true positive rate, negative predictive value and the $F1$ measure.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-05-measures-classification-roc-space/">Chapter 4.5: Measures Classification ROC Visualization</a>
+    
+      
+        <p>In this section, we explain the ROC curve and how to calculate it. In addition, we will present AUC and partial AUC as global performance measures.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-06-overfitting/">Chapter 4.6: Overfitting</a>
+    
+      
+        <p>When a machine learning model performs well on training data but doesn&amp;rsquo;t generalize on the test data, we speak of overfitting. We will show you examples of this behavior and how to diagnose overfitting.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-07-train/">Chapter 4.7: Training Error</a>
+    
+      
+        <p>There are two types of errors: training error and test error. The focus of this section is on the training error and related difficulties.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-08-test/">Chapter 4.8: Test Error</a>
+    
+      
+        <p>While we can infer some information about the learning process from training errors (e.g., the state of iterative optimization), we are truly interested in generalization ability, and thus in the test error on previously unseen data.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/04_evaluation/04-09-resampling/">Chapter 4.9: Resampling</a>
+    
+      
+        <p>Different resampling techniques help to assess the performance of a learner. We will introduce cross-validation (with and without stratification), bootstrap and subsampling.
+</p>
+      
+      
+</li>
+
+
+</ul>
+</div>
+
+
+        </div><footer class="bg-light text-center text-lg-start fixed-bottom">
+<ul class="list-inline text-center">
+  <li class="list-inline-item">© 2021 Course Creator</li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="https://github.com/compstat-lmu/lecture_i2ml" target="_blank">Course content</a></li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="/lecture_i2ml_2" target="_blank">Main Course Website</a></li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="https://github.com/jakob-r/hugo-course" target="_blank">Website source code</a></li>
+  
+</ul>
+</footer>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      ignoreHtmlClass: ['quizdown']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

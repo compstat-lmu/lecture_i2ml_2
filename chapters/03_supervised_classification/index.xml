@@ -30,8 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-03-classification-linear/</guid>
-      <description>&lt;p&gt;Linear classifiers are an essential subclass of classification models. This section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.&lt;/p&gt;
-&lt;h3 id=&#34;lecture-video&#34;&gt;Lecture video&lt;/h3&gt;</description>
+      <description>&lt;p&gt;Linear classifiers are an essential subclass of classification models. This section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,8 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/</guid>
-      <description>&lt;p&gt;Logistic regression is a discriminant approach toward constructing a classifier. We will motivate logistic regression via the logistic function, define the log-loss for optimization and illustrate the approach in 1D and 2D.&lt;/p&gt;
-&lt;h3 id=&#34;lecture-video&#34;&gt;Lecture video&lt;/h3&gt;</description>
+      <description>&lt;p&gt;Logistic regression is a discriminant approach toward constructing a classifier. We will motivate logistic regression via the logistic function, define the log-loss for optimization and illustrate the approach in 1D and 2D.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -50,8 +48,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-05-classification-discranalysis/</guid>
-      <description>&lt;p&gt;Discriminant analysis is a generative approach toward constructing a classifier. We distinguish between linear (LDA) and quadratic (QDA) discriminant analysis, where the latter is a more flexible approach subsuming the first.&lt;/p&gt;
-&lt;h3 id=&#34;lecture-video&#34;&gt;Lecture video&lt;/h3&gt;</description>
+      <description>&lt;p&gt;Discriminant analysis is a generative approach toward constructing a classifier. We distinguish between linear (LDA) and quadratic (QDA) discriminant analysis, where the latter is a more flexible approach subsuming the first.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -60,8 +57,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</guid>
-      <description>&lt;p&gt;Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.&lt;/p&gt;
-&lt;h3 id=&#34;lecture-video&#34;&gt;Lecture video&lt;/h3&gt;</description>
+      <description>&lt;p&gt;Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.&lt;/p&gt;</description>
     </item>
     
   </channel>
