@@ -88,6 +88,42 @@
     </item>
     
     <item>
+      <title>Chapter 10.1: Intro to mlr3</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-01-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-01-intro/</guid>
+      <description>&lt;p&gt;In this section, we introduce the basic concepts of the R package mlr3.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.2: Resampling with mlr3</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-02-resampling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-02-resampling/</guid>
+      <description>&lt;p&gt;mlr3 supports various forms of resampling, which we will demonstrate in this section.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.3: Tuning with mlr3</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-03-tuning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-03-tuning/</guid>
+      <description>&lt;p&gt;We can easily conduct hyperparameter tuning with mrl3&amp;rsquo;s modular ecosystem, defining custom search spaces and suitable tuning algorithms.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.4: Pipelines with mlr3</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-04-pipelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-04-pipelines/</guid>
+      <description>&lt;p&gt;Pipelines provide an important tool to package all relevant machine learning step into a single object that can be treated just as any other learner, ensuring adherence to the train-test split principle even in the face of complex analyses.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 2.1: Loss Functions for Regression</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -399,7 +435,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/</guid>
-      <description>&lt;p&gt;The simplest method to achieve an untouched test set is a 3-way split: the models are first trained on the &amp;ldquo;training set&amp;rdquo; and then evaluated and compared on the &amp;ldquo;validation set.&amp;rdquo; After selecting the best model, the final performance will be evaluated on the &amp;ldquo;test set.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;The simplest method to achieve an untouched test set is a 3-way split: the models are first trained on the &lt;em&gt;training set&lt;/em&gt; and then evaluated and compared on the &lt;em&gt;validation set&lt;/em&gt;. After selecting the best model, the final performance will be evaluated on the &lt;em&gt;test set&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/</guid>
-      <description>&lt;p&gt;The simplest method to achieve an untouched test set is a 3-way split: the models are first trained on the &amp;ldquo;training set&amp;rdquo; and then evaluated and compared on the &amp;ldquo;validation set.&amp;rdquo; After selecting the best model, the final performance will be evaluated on the &amp;ldquo;test set.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;The simplest method to achieve an untouched test set is a 3-way split: the models are first trained on the &lt;em&gt;training set&lt;/em&gt; and then evaluated and compared on the &lt;em&gt;validation set&lt;/em&gt;. After selecting the best model, the final performance will be evaluated on the &lt;em&gt;test set&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
