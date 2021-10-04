@@ -178,6 +178,152 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 </script>
 
+<p><strong>Logistic regression &amp; Newton-Raphson</strong></p>
+<p>You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found <a href="https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_logreg.Rmd">here</a>. If you want to render the Rmd files to PDF, you need the accompanying <a href="https://github.com/compstat-lmu/lecture_i2ml/tree/master/style">style files</a>.</p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha256-hEmjt7z3bB53X/awJyV81gmBLpVw2mj7EsvoJelZWow=" crossorigin="anonymous"></script>
+
+
+
+
+<div class="pdf">
+<div class="pdf-paginator" id="paginator_code_demo_logreg_pdf">
+    <button class="btn btn-primary" id="prev_code_demo_logreg_pdf">Previous</button>
+    &nbsp;
+    <span>Page: <span id="page_num_code_demo_logreg_pdf"></span> / <span id="page_count_code_demo_logreg_pdf"></span></span>
+    &nbsp;
+    <button class="btn btn-primary" id="next_code_demo_logreg_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/code_demo_logreg.pdf" target="_blank"><button class="btn btn-secondary" id="next_code_demo_logreg_pdf">PDF</button></a>
+</div>
+<div id="embed-pdf-container_code_demo_logreg_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_code_demo_logreg_pdf"></canvas>
+</div>
+</div>
+
+<script type="text/javascript">
+window.addEventListener("load",function(){
+
+
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/03_supervised_classification\/code_demo_logreg.pdf';
+var hidePaginator = "";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.worker.min.js";
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas_code_demo_logreg_pdf = document.getElementById('the-canvas_code_demo_logreg_pdf'),
+    ctx = canvas_code_demo_logreg_pdf.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas_code_demo_logreg_pdf.height = viewport.height;
+    canvas_code_demo_logreg_pdf.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num_code_demo_logreg_pdf').textContent = num;
+}
+
+
+
+function queuerenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator == "true") {
+  document.getElementById("paginator_code_demo_logreg_pdf").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queuerenderPage(pageNum);
+}
+document.getElementById('prev_code_demo_logreg_pdf').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queuerenderPage(pageNum);
+}
+document.getElementById('next_code_demo_logreg_pdf').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count_code_demo_logreg_pdf').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+})
+
+</script>
+
+
+
+<div class='quizdown'>
+  
+
+---
+shuffle_questions: false
+---
+
+## Which statements are true? 
+
+- [ ] Logistic regression can be fitted by maximum likelihood estimation with numerical optimization or solved analytically.
+- [ ] Logistic regression follows a generative approach.
+- [x] In logistic regression, the parameter vector $\mathbf{\theta}$ that maximizes the model's likelihood is identical to the one minimizing its empirical risk.
+
+
+</div>
+
 
 <ul class="section_skipper list-unstyled">
 
@@ -228,5 +374,16 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+</script>
 </body>
 </html>
