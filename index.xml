@@ -115,6 +115,60 @@
     </item>
     
     <item>
+      <title>Chapter 3.1: Classification Tasks</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-01-tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-01-tasks/</guid>
+      <description>&lt;p&gt;In classification, the task is to predict a categorical (binary or multi-class) label. In this section, we illustrate the concept of classification with some typical examples.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3.2: Basic Definitions</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-02-classification-basicdefs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-02-classification-basicdefs/</guid>
+      <description>&lt;p&gt;Although we are primarily interested in actual class labels, classification models usually output scores or probabilities first. We will explain why, introduce the concepts of decision regions and decision boundaries, and finally discern two fundamental approaches to constructing classifiers: the generative approach and the discriminant approach.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3.3: Linear Classifiers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-03-classification-linear/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-03-classification-linear/</guid>
+      <description>&lt;p&gt;Linear classifiers are an essential subclass of classification models. This section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3.4: Logistic Regression</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/</guid>
+      <description>&lt;p&gt;Logistic regression is a discriminant approach toward constructing a classifier. We will motivate logistic regression via the logistic function, define the log-loss for optimization and illustrate the approach in 1D and 2D.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3.5: Discriminant Analysis</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-05-classification-discranalysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-05-classification-discranalysis/</guid>
+      <description>&lt;p&gt;Discriminant analysis is a generative approach toward constructing a classifier. We distinguish between linear (LDA) and quadratic (QDA) discriminant analysis, where the latter is a more flexible approach subsuming the first.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter Chapter 3.6: Naive Bayes</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</guid>
+      <description>&lt;p&gt;Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Cheat Sheets</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/appendix/01_cheat_sheets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

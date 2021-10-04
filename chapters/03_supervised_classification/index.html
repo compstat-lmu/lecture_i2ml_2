@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapters</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 3: Supervised Classification</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,10 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapters</h1>
+<h1>Chapter 3: Supervised Classification</h1>
 
-<p></p>
+<p><p>This chapter treats the supervised classification task in more detail. We will see examples of binary and multi-class classification and the differences between discriminative and generative approaches. In particular, we will address logistic regression, linear and quadratic discriminant analysis, naive Bayes and \(k))-NN classification.</p>
+</p>
 
 
 <div class="chapter_overview">
@@ -56,28 +57,61 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/01_ml_basics/">Chapter 1: ML Basics</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-01-tasks/">Chapter 3.1: Classification Tasks</a>
     
       
-        <p>This chapter introduces the basic concepts of machine learning. We focus on supervised learning, explain the difference between regression and classification, show how to evaluate and compare machine learning models and formalize the concept of learning.</p>
+        <p>In classification, the task is to predict a categorical (binary or multi-class) label. In this section, we illustrate the concept of classification with some typical examples.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/02_supervised_regression/">Chapter 2: Supervised Regression</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-02-classification-basicdefs/">Chapter 3.2: Basic Definitions</a>
     
       
-        <p>This chapter treats the supervised regression task in more detail. We will see different loss functions for regression, how a linear regression model can be used from a machine learning perspective, and how to extend it with polynomials for greater flexibility.</p>
+        <p>Although we are primarily interested in actual class labels, classification models usually output scores or probabilities first. We will explain why, introduce the concepts of decision regions and decision boundaries, and finally discern two fundamental approaches to constructing classifiers: the generative approach and the discriminant approach.
+</p>
       
       
 </li>
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/">Chapter 3: Supervised Classification</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-03-classification-linear/">Chapter 3.3: Linear Classifiers</a>
     
       
-        <p>This chapter treats the supervised classification task in more detail. We will see examples of binary and multi-class classification and the differences between discriminative and generative approaches. In particular, we will address logistic regression, linear and quadratic discriminant analysis, naive Bayes and \(k))-NN classification.</p>
+        <p>Linear classifiers are an essential subclass of classification models. This section provides the definition of a linear classifier and depicts differences between linear and non-linear decision boundaries.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/">Chapter 3.4: Logistic Regression</a>
+    
+      
+        <p>Logistic regression is a discriminant approach toward constructing a classifier. We will motivate logistic regression via the logistic function, define the log-loss for optimization and illustrate the approach in 1D and 2D.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-05-classification-discranalysis/">Chapter 3.5: Discriminant Analysis</a>
+    
+      
+        <p>Discriminant analysis is a generative approach toward constructing a classifier. We distinguish between linear (LDA) and quadratic (QDA) discriminant analysis, where the latter is a more flexible approach subsuming the first.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/">Chapter Chapter 3.6: Naive Bayes</a>
+    
+      
+        <p>Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.
+</p>
       
       
 </li>
