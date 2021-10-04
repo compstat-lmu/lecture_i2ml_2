@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-04-pipelines/</guid>
-      <description>&lt;p&gt;Pipelines provide an important tool to package all relevant machine learning step into a single object that can be treated just as any other learner, ensuring adherence to the train-test split principle even in the face of complex analyses.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Pipelines provide an important tool to package all relevant machine learning step into a single object that can be treated just like any other learner, ensuring adherence to the train-test split principle even in the face of complex analyses.&lt;/p&gt;</description>
     </item>
     
   </channel>
