@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 7.2: Introduction</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 8.2: Problem Definition</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 7.2: Introduction</h1>
-<p>In this section we investigate random forests, a modification of bagging for trees. We illustrate the effect of ensemble size and show how to compute out-of-bag error estimates.</p>
+<h1>Chapter 8.2: Problem Definition</h1>
+<p>Hyperparameter tuning is the process of finding good model hyperparameters. In this section we formalize the problem of tuning and explain why tuning is computationally hard.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/chberfdaTwc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/Eo7iqMOeILY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_forests_intro_pdf">
-    <button class="btn btn-primary" id="prev_slides_forests_intro_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_tuning_tuningproblem_pdf">
+    <button class="btn btn-primary" id="prev_slides_tuning_tuningproblem_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_forests_intro_pdf"></span> / <span id="page_count_slides_forests_intro_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_tuning_tuningproblem_pdf"></span> / <span id="page_count_slides_tuning_tuningproblem_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_forests_intro_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/slides-forests-intro.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_forests_intro_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_tuning_tuningproblem_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/slides-tuning-tuningproblem.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_tuning_tuningproblem_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_forests_intro_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_forests_intro_pdf"></canvas>
+<div id="embed-pdf-container_slides_tuning_tuningproblem_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_tuning_tuningproblem_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/07_forests\/slides-forests-intro.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/08_tuning\/slides-tuning-tuningproblem.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_forests_intro_pdf = document.getElementById('the-canvas_slides_forests_intro_pdf'),
-    ctx = canvas_slides_forests_intro_pdf.getContext('2d');
+    canvas_slides_tuning_tuningproblem_pdf = document.getElementById('the-canvas_slides_tuning_tuningproblem_pdf'),
+    ctx = canvas_slides_tuning_tuningproblem_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_forests_intro_pdf.height = viewport.height;
-    canvas_slides_forests_intro_pdf.width = viewport.width;
+    canvas_slides_tuning_tuningproblem_pdf.height = viewport.height;
+    canvas_slides_tuning_tuningproblem_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_forests_intro_pdf').textContent = num;
+  document.getElementById('page_num_slides_tuning_tuningproblem_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_forests_intro_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_tuning_tuningproblem_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_forests_intro_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_tuning_tuningproblem_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_forests_intro_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_tuning_tuningproblem_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_forests_intro_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_tuning_tuningproblem_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -183,10 +183,10 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-01-bagging/">&#xab; Chapter 7.1: Bagging Ensembles</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-01-intro/">&#xab; Chapter 8.1: Introduction</a></li>
 
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/">Chapter 7.3: Benchmarking Trees, Forests, and Bagging K-NN &#xbb;</a></li>
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-03-basicalgos/">Chapter 8.3: Basic Techniques &#xbb;</a></li>
 
 </ul>
 
