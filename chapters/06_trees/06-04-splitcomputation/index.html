@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 3.5: Discriminant Analysis</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 5.4: Computational Aspects of Finding Splits</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 3.5: Discriminant Analysis</h1>
-<p>Discriminant analysis is a generative approach toward constructing a classifier. We distinguish between linear (LDA) and quadratic (QDA) discriminant analysis, where the latter is a more flexible approach subsuming the first.</p>
+<h1>Chapter 5.4: Computational Aspects of Finding Splits</h1>
+<p>In this section, we explain the computational aspects of the node-splitting procedure, especially for nominal features. In addition, we illustrate how to deal with missing values.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/inIhdMwQ4Ik" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/RujQ_xP-NFA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_classification_discranalysis_pdf">
-    <button class="btn btn-primary" id="prev_slides_classification_discranalysis_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_cart_splitcomputation_pdf">
+    <button class="btn btn-primary" id="prev_slides_cart_splitcomputation_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_classification_discranalysis_pdf"></span> / <span id="page_count_slides_classification_discranalysis_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_cart_splitcomputation_pdf"></span> / <span id="page_count_slides_cart_splitcomputation_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_classification_discranalysis_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/slides-classification-discranalysis.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_classification_discranalysis_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_cart_splitcomputation_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/slides-cart-splitcomputation.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_cart_splitcomputation_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_classification_discranalysis_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_classification_discranalysis_pdf"></canvas>
+<div id="embed-pdf-container_slides_cart_splitcomputation_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_cart_splitcomputation_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/03_supervised_classification\/slides-classification-discranalysis.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/06_trees\/slides-cart-splitcomputation.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_classification_discranalysis_pdf = document.getElementById('the-canvas_slides_classification_discranalysis_pdf'),
-    ctx = canvas_slides_classification_discranalysis_pdf.getContext('2d');
+    canvas_slides_cart_splitcomputation_pdf = document.getElementById('the-canvas_slides_cart_splitcomputation_pdf'),
+    ctx = canvas_slides_cart_splitcomputation_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_classification_discranalysis_pdf.height = viewport.height;
-    canvas_slides_classification_discranalysis_pdf.width = viewport.width;
+    canvas_slides_cart_splitcomputation_pdf.height = viewport.height;
+    canvas_slides_cart_splitcomputation_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_classification_discranalysis_pdf').textContent = num;
+  document.getElementById('page_num_slides_cart_splitcomputation_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_classification_discranalysis_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_cart_splitcomputation_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_classification_discranalysis_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_cart_splitcomputation_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_classification_discranalysis_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_cart_splitcomputation_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_classification_discranalysis_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_cart_splitcomputation_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -192,12 +192,12 @@ shuffle_questions: false
 
 ## Which statements are true? 
 
-- [ ] In LDA, each class density is modeled as a multivariate Gaussian with unequal covariance.
-- [x] LDA is a linear classifier.
-- [x] LDA follows a generative approach.
-- [ ] In QDA, each class density is modeled as a multivariate Gaussian with equal covariance.
-- [x] QDA follows a generative approach.
-- [x] QDA requires estimation of more parameters than LDA.
+- [x] To find optimal splits, one iterates over all features, and for each feature over all possible split points.
+- [ ] To find optimal splits, we use the one that splits the data approximately in half in each step.
+- [x] To find optimal splits, we evaluate the possible splits only on the data that ended up in the parent node we are trying to split.
+- [x] The optimal split results in the lowest sum of empirical risks in the child nodes.
+- [ ] Monotone transformations of several features will change the structure of the tree.
+- [x] The CART algorithm cannot go on training if every node contains exactly one observation.
 
 
 </div>
@@ -205,10 +205,10 @@ shuffle_questions: false
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/">&#xab; Chapter 3.4: Logistic Regression</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-03-treegrowing/">&#xab; Chapter 5.3: Growing a Tree</a></li>
 
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/">Chapter Chapter 3.6: Naive Bayes &#xbb;</a></li>
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-05-stoppingpruning/">Chapter 5.5: Stopping Criteria &amp; Pruning &#xbb;</a></li>
 
 </ul>
 
@@ -252,5 +252,16 @@ shuffle_questions: false
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
+</script>
+<script 
+src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
+</script>
+<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
+</script>
 </body>
 </html>
