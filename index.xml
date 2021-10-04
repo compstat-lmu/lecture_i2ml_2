@@ -385,6 +385,33 @@
     </item>
     
     <item>
+      <title>Chapter 9.1: Nested Resampling Motivation</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-01-nestedintro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-01-nestedintro/</guid>
+      <description>&lt;p&gt;Selecting the best model from a set of potential candidates is an important part of most machine learning problems. By examining an instructive and problematic example, we introduce the untouched-test-set principle.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 9.2: Training - Validation - Testing</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/</guid>
+      <description>&lt;p&gt;The simplest method to achieve an untouched test set is a 3-way split: the models are first trained on the &amp;ldquo;training set&amp;rdquo; and then evaluated and compared on the &amp;ldquo;validation set.&amp;rdquo; After selecting the best model, the final performance will be evaluated on the &amp;ldquo;test set.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 9.3: Nested Resampling</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-03-nestedresampling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-03-nestedresampling/</guid>
+      <description>&lt;p&gt;In this section, we will explain why and how nested resampling is done.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter Chapter 3.6: Naive Bayes</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

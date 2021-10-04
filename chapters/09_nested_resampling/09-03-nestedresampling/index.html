@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 7.6: Discussion</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 9.3: Nested Resampling</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 7.6: Discussion</h1>
-<p>In this section we discuss the advantages and disadvantages of random forests and explain that all advantages of trees also apply here.</p>
+<h1>Chapter 9.3: Nested Resampling</h1>
+<p>In this section, we will explain why and how nested resampling is done.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/9bqNhq6OUUk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/-d338rc076s" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_forests_discussion_pdf">
-    <button class="btn btn-primary" id="prev_slides_forests_discussion_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_tuning_nestedresampling_pdf">
+    <button class="btn btn-primary" id="prev_slides_tuning_nestedresampling_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_forests_discussion_pdf"></span> / <span id="page_count_slides_forests_discussion_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_tuning_nestedresampling_pdf"></span> / <span id="page_count_slides_tuning_nestedresampling_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_forests_discussion_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/slides-forests-discussion.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_forests_discussion_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_tuning_nestedresampling_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/slides-tuning-nestedresampling.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_tuning_nestedresampling_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_forests_discussion_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_forests_discussion_pdf"></canvas>
+<div id="embed-pdf-container_slides_tuning_nestedresampling_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_tuning_nestedresampling_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/07_forests\/slides-forests-discussion.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/09_nested_resampling\/slides-tuning-nestedresampling.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_forests_discussion_pdf = document.getElementById('the-canvas_slides_forests_discussion_pdf'),
-    ctx = canvas_slides_forests_discussion_pdf.getContext('2d');
+    canvas_slides_tuning_nestedresampling_pdf = document.getElementById('the-canvas_slides_tuning_nestedresampling_pdf'),
+    ctx = canvas_slides_tuning_nestedresampling_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_forests_discussion_pdf.height = viewport.height;
-    canvas_slides_forests_discussion_pdf.width = viewport.width;
+    canvas_slides_tuning_nestedresampling_pdf.height = viewport.height;
+    canvas_slides_tuning_nestedresampling_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_forests_discussion_pdf').textContent = num;
+  document.getElementById('page_num_slides_tuning_nestedresampling_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_forests_discussion_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_tuning_nestedresampling_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_forests_discussion_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_tuning_nestedresampling_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_forests_discussion_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_tuning_nestedresampling_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_forests_discussion_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_tuning_nestedresampling_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -181,8 +181,8 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </script>
 
 <h3 id="code-demo">Code demo</h3>
-<p><strong>Random Forests</strong></p>
-<p>You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found <a href="https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_randforests.Rmd">here</a>. If you want to render the Rmd files to PDF, you need the accompanying <a href="https://github.com/compstat-lmu/lecture_i2ml/tree/master/style">style files</a>.</p>
+<p><strong>Kaggle Challenge</strong></p>
+<p>You can run the code snippets in the demos on your local machine. The corresponding Rmd version of this demo can be found <a href="https://github.com/compstat-lmu/lecture_i2ml/blob/master/code-demos/code_demo_kaggle.Rmd">here</a>. If you want to render the Rmd files to PDF, you need the accompanying <a href="https://github.com/compstat-lmu/lecture_i2ml/tree/master/style">style files</a>.</p>
 
 
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha256-hEmjt7z3bB53X/awJyV81gmBLpVw2mj7EsvoJelZWow=" crossorigin="anonymous"></script>
@@ -191,16 +191,16 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_code_demo_randforests_pdf">
-    <button class="btn btn-primary" id="prev_code_demo_randforests_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_code_demo_kaggle_pdf">
+    <button class="btn btn-primary" id="prev_code_demo_kaggle_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_code_demo_randforests_pdf"></span> / <span id="page_count_code_demo_randforests_pdf"></span></span>
+    <span>Page: <span id="page_num_code_demo_kaggle_pdf"></span> / <span id="page_count_code_demo_kaggle_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_code_demo_randforests_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/code_demo_randforests.pdf" target="_blank"><button class="btn btn-secondary" id="next_code_demo_randforests_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_code_demo_kaggle_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/code_demo_kaggle.pdf" target="_blank"><button class="btn btn-secondary" id="next_code_demo_kaggle_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_code_demo_randforests_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_code_demo_randforests_pdf"></canvas>
+<div id="embed-pdf-container_code_demo_kaggle_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_code_demo_kaggle_pdf"></canvas>
 </div>
 </div>
 
@@ -208,7 +208,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/07_forests\/code_demo_randforests.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/09_nested_resampling\/code_demo_kaggle.pdf';
 var hidePaginator = "";
 
 
@@ -223,8 +223,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_code_demo_randforests_pdf = document.getElementById('the-canvas_code_demo_randforests_pdf'),
-    ctx = canvas_code_demo_randforests_pdf.getContext('2d');
+    canvas_code_demo_kaggle_pdf = document.getElementById('the-canvas_code_demo_kaggle_pdf'),
+    ctx = canvas_code_demo_kaggle_pdf.getContext('2d');
 
 
 
@@ -233,8 +233,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_code_demo_randforests_pdf.height = viewport.height;
-    canvas_code_demo_randforests_pdf.width = viewport.width;
+    canvas_code_demo_kaggle_pdf.height = viewport.height;
+    canvas_code_demo_kaggle_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -255,7 +255,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_code_demo_randforests_pdf').textContent = num;
+  document.getElementById('page_num_code_demo_kaggle_pdf').textContent = num;
 }
 
 
@@ -271,7 +271,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_code_demo_randforests_pdf").style.display = 'none';
+  document.getElementById("paginator_code_demo_kaggle_pdf").style.display = 'none';
 }
 
 
@@ -283,7 +283,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_code_demo_randforests_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_code_demo_kaggle_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -294,13 +294,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_code_demo_randforests_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_code_demo_kaggle_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_code_demo_randforests_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_code_demo_kaggle_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -321,10 +321,13 @@ shuffle_questions: false
 
 ## Which statements are true? 
 
-- [x] To compute permutation variable importance for feature $j$, we permute the feature and see how the performance changes (in OOB observations).
-- [ ] The random forest is a bad out-of-the box model and requires tuning of hyperparameters.
-- [x] Random forests and trees can be used for high-dimensional data.
-- [ ] Proximities are used in replacing missing data, but not in locating outliers.
+- [x] How well tuning works depends on the learner and the impact of the hyperparameters on that learner.
+- [ ] Grid search often works better than random search.
+- [x] Grid search scales exponentially with the dimension of the parameter space.
+- [x] Grid search evaluates many points from the parameter space that aren't of interest.
+- [x] Random search works often better due to its better exploration of the hyperparameter space.
+- [ ] Random search scales very well with the dimension of the hyperparameter space. 
+- [ ] Random search as well as grid search has the problem of discretization.
 
 
 </div>
@@ -332,7 +335,7 @@ shuffle_questions: false
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-05-proximities/">&#xab; Chapter 7.5: Proximities</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/">&#xab; Chapter 9.2: Training - Validation - Testing</a></li>
 
 
 </ul>
