@@ -58,22 +58,23 @@
 
 
 
+
 <div class="pdf">
-<div id="paginator">
-    <button class="btn btn-primary" id="prev">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_basics_data_pdf">
+    <button class="btn btn-primary" id="prev_slides_basics_data_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+    <span>Page: <span id="page_num_slides_basics_data_pdf"></span> / <span id="page_count_slides_basics_data_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/slides-basics-data.pdf" target="_blank"><button class="btn btn-secondary" id="next">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_basics_data_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/slides-basics-data.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_basics_data_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
+<div id="embed-pdf-container_slides_basics_data_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_basics_data_pdf"></canvas>
 </div>
 </div>
 
 <script type="text/javascript">
-window.onload = function() {
+window.addEventListener("load",function(){
 
 
 var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/01_ml_basics\/slides-basics-data.pdf';
@@ -91,8 +92,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
+    canvas_slides_basics_data_pdf = document.getElementById('the-canvas_slides_basics_data_pdf'),
+    ctx = canvas_slides_basics_data_pdf.getContext('2d');
 
 
 
@@ -101,8 +102,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
+    canvas_slides_basics_data_pdf.height = viewport.height;
+    canvas_slides_basics_data_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -123,12 +124,12 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num').textContent = num;
+  document.getElementById('page_num_slides_basics_data_pdf').textContent = num;
 }
 
 
 
-function queueRenderPage(num) {
+function queuerenderPage(num) {
   if (pageRendering) {
     pageNumPending = num;
   } else {
@@ -139,7 +140,7 @@ function queueRenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator").style.display = 'none';
+  document.getElementById("paginator_slides_basics_data_pdf").style.display = 'none';
 }
 
 
@@ -149,9 +150,9 @@ function onPrevPage() {
     return;
   }
   pageNum--;
-  queueRenderPage(pageNum);
+  queuerenderPage(pageNum);
 }
-document.getElementById('prev').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_basics_data_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -160,20 +161,20 @@ function onNextPage() {
     return;
   }
   pageNum++;
-  queueRenderPage(pageNum);
+  queuerenderPage(pageNum);
 }
-document.getElementById('next').addEventListener('click', onNextPage);
+document.getElementById('next_slides_basics_data_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_basics_data_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
 });
-}
+})
 
 </script>
 
@@ -203,6 +204,29 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </ul>
 </footer>
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      ignoreHtmlClass: ['quizdown']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 </body>
 </html>
