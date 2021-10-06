@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 11: Advanced Risk Minimization</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 19: Gaussian Processes</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,9 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 11: Advanced Risk Minimization</h1>
+<h1>Chapter 19: Gaussian Processes</h1>
 
-<p><p>This chapter revisits the theory of risk minimization, providing more in-depth analysis on established losses and the connection between empirical risk minimization and maximum likelihood estimation, and introduces some more advanced loss functions for regression and classification.</p>
+<p><p>This chapter introduces Gaussian processes as a model class. Gaussian processes are non-parametric approaches with ubiquitous application that model entire distributions in function space.</p>
 </p>
 
 
@@ -57,10 +57,50 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/11-01-risk-minimizer/">Chapter 11.1: Risk Minimizers</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/19-01-bayes-lm/">Chapter 19.1: The Bayesian Linear Model</a>
     
       
-        <p>We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.
+        <p>We begin by reviewing the Bayesian formulation of a linear model and show that instead of point estimates for parameters and predictions, we obtain an entire posterior and predictive distribution.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/19-02-basic/">Chapter 19.2: Gaussian Processes</a>
+    
+      
+        <p>In this section, we introduce the basic idea behind Gaussian processes. We move from weight to function space and build some intuition on distributions over functions, discuss GPs&#39; marginalization property, derive GP priors, and interpret GPs as indexed families.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/19-03-covariance/">Chapter 19.3: Covariance Functions for GPs</a>
+    
+      
+        <p>In this section, we discuss the role of covariance functions in GPs and introduce the most common choices.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/19-04-prediction/">Chapter 19.4: Gaussian Process Prediction</a>
+    
+      
+        <p>In this section, we show how to derive the posterior process and discuss further properties of GPs as well as noisy GPs.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/19_gaussian_processes/19-05-training/">Chapter 19.5: Gaussian Process Training</a>
+    
+      
+        <p>In this section, we show how Gaussian processes are actually trained using maximum likelihood estimation and exploiting the fact that we can learn covariance functions&#39; hyperparameters on the fly.
 </p>
       
       
