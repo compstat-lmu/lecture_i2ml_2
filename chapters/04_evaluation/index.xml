@@ -66,7 +66,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-07-train/</guid>
-      <description>&lt;p&gt;There are two types of errors: training error and test error. The focus of this section is on the training error and related difficulties.&lt;/p&gt;</description>
+      <description>&lt;p&gt;There are two types of errors: training errors and test errors. The focus of this section is on the training error and related difficulties.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-09-resampling/</guid>
-      <description>&lt;p&gt;Different resampling techniques help to assess the performance of a learner. We will introduce cross-validation (with and without stratification), bootstrap and subsampling.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Different resampling techniques help to assess the performance of a learner while avoiding potential quirks resulting from a single train-test split. We will introduce cross-validation (with and without stratification), bootstrap and subsampling.&lt;/p&gt;</description>
     </item>
     
   </channel>
