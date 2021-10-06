@@ -152,15 +152,6 @@
     
     <item>
       <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/11-01-risk-minimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -498,7 +489,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</guid>
-      <description>&lt;p&gt;Hard margin SVMs do not allow for instances to end up on the wrong side of the decision boundary. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hard margin SVMs seek perfect data separation. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -535,6 +526,51 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</guid>
       <description>&lt;p&gt;The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.1: Feature Generation for Nonlinear Separation</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-01-featuregen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-01-featuregen/</guid>
+      <description>&lt;p&gt;We show how nonlinear feature maps project the input data to transformed spaces where they become linearly separable.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.2: The Kernel Trick</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-02-kernel-trick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-02-kernel-trick/</guid>
+      <description>&lt;p&gt;In this section, we show how nonlinear SVMs work their magic by introducing nonlinearity efficiently via the kernel trick.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.3: The Polynomial Kernel</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-03-kernel-poly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-03-kernel-poly/</guid>
+      <description>&lt;p&gt;In this section, we introduce the polynomial kernel in the context of SVMs and demonstrate how different polynomial degrees affect decision boundaries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-04-rkhs-repr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-04-rkhs-repr/</guid>
+      <description>&lt;p&gt;In this section, we introduce important theoretical background on nonlinear SVMs that essentially allows us to express them as a weighted sum of basis functions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.5: The Gaussian RBF Kernel</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-05-kernel-rbf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-05-kernel-rbf/</guid>
+      <description>&lt;p&gt;In this section, we introduce the popular Gaussian RBF kernel and discuss its properties.&lt;/p&gt;</description>
     </item>
     
     <item>
