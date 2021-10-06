@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 11: Advanced Risk Minimization</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 17: Linear Support Vector Machines</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,9 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 11: Advanced Risk Minimization</h1>
+<h1>Chapter 17: Linear Support Vector Machines</h1>
 
-<p><p>This chapter revisits the theory of risk minimization, providing more in-depth analysis on established losses and the connection between empirical risk minimization and maximum likelihood estimation, and introduces some more advanced loss functions for regression and classification.</p>
+<p><p>This chapter introduces the linear support vector machine (SVM), a linear classifier that finds decision boundaries by maximizing margins to the closest data points, possibly allowing for violations to a certain extent.</p>
 </p>
 
 
@@ -57,10 +57,50 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/">Chapter 11.1: Risk Minimizers</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/">Chapter 17.1: Linear Hard Margin SVM</a>
     
       
-        <p>We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.
+        <p>Hard margin SVMs do not allow for instances to end up on the wrong side of the decision boundary. We introduce the linear hard margin SVM problem as a quadratic optimization program.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/">Chapter 17.2: Hard Margin SVM Dual</a>
+    
+      
+        <p>In this section, we derive the dual variant of the linear hard-margin SVM problem, a computationally favorable formulation.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/">Chapter 17.3: Soft Margin SVM</a>
+    
+      
+        <p>Hard margin SVMs are often not applicable to practical questions because they fail when the data are not linearly separable. Moreover, for the sake of generalization, we will often accept some violations to keep the margin large enough for reliable class separation. Therefore, we introduce the soft margin linear SVM.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/">Chapter 17.4: SVMs and Empirical Risk Minimization</a>
+    
+      
+        <p>In this section, we show how the SVM problem can be understood as an instance of empirical risk minimization.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/">Chapter 17.5: Support Vector Machine Training</a>
+    
+      
+        <p>The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.
 </p>
       
       

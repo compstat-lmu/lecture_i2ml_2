@@ -152,15 +152,6 @@
     
     <item>
       <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -499,6 +490,51 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</guid>
       <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.1: Linear Hard Margin SVM</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</guid>
+      <description>&lt;p&gt;Hard margin SVMs do not allow for instances to end up on the wrong side of the decision boundary. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.2: Hard Margin SVM Dual</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/</guid>
+      <description>&lt;p&gt;In this section, we derive the dual variant of the linear hard-margin SVM problem, a computationally favorable formulation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.3: Soft Margin SVM</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/</guid>
+      <description>&lt;p&gt;Hard margin SVMs are often not applicable to practical questions because they fail when the data are not linearly separable. Moreover, for the sake of generalization, we will often accept some violations to keep the margin large enough for reliable class separation. Therefore, we introduce the soft margin linear SVM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/</guid>
+      <description>&lt;p&gt;In this section, we show how the SVM problem can be understood as an instance of empirical risk minimization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.5: Support Vector Machine Training</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</guid>
+      <description>&lt;p&gt;The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.&lt;/p&gt;</description>
     </item>
     
     <item>
