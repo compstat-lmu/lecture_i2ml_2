@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 18.5: The Gaussian RBF Kernel</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 18.6: SVM Model Selection</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 18.5: The Gaussian RBF Kernel</h1>
-<p>In this section, we introduce the popular Gaussian RBF kernel and discuss its properties.</p>
+<h1>Chapter 18.6: SVM Model Selection</h1>
+<p>In this section, we discuss the importance of SVM hyperparameters for adequate solutions.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/hGqWSP8PzHg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/drcLf-c9Tv8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_nonlinsvm_kernel_rbf_pdf">
-    <button class="btn btn-primary" id="prev_slides_nonlinsvm_kernel_rbf_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_nonlinsvm_modelsel_pdf">
+    <button class="btn btn-primary" id="prev_slides_nonlinsvm_modelsel_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_nonlinsvm_kernel_rbf_pdf"></span> / <span id="page_count_slides_nonlinsvm_kernel_rbf_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_nonlinsvm_modelsel_pdf"></span> / <span id="page_count_slides_nonlinsvm_modelsel_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_nonlinsvm_kernel_rbf_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/slides-nonlinsvm-kernel-rbf.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_nonlinsvm_kernel_rbf_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_nonlinsvm_modelsel_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/slides-nonlinsvm-modelsel.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_nonlinsvm_modelsel_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_nonlinsvm_kernel_rbf_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_nonlinsvm_kernel_rbf_pdf"></canvas>
+<div id="embed-pdf-container_slides_nonlinsvm_modelsel_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_nonlinsvm_modelsel_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/18_nonlinear_svm\/slides-nonlinsvm-kernel-rbf.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/18_nonlinear_svm\/slides-nonlinsvm-modelsel.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_nonlinsvm_kernel_rbf_pdf = document.getElementById('the-canvas_slides_nonlinsvm_kernel_rbf_pdf'),
-    ctx = canvas_slides_nonlinsvm_kernel_rbf_pdf.getContext('2d');
+    canvas_slides_nonlinsvm_modelsel_pdf = document.getElementById('the-canvas_slides_nonlinsvm_modelsel_pdf'),
+    ctx = canvas_slides_nonlinsvm_modelsel_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_nonlinsvm_kernel_rbf_pdf.height = viewport.height;
-    canvas_slides_nonlinsvm_kernel_rbf_pdf.width = viewport.width;
+    canvas_slides_nonlinsvm_modelsel_pdf.height = viewport.height;
+    canvas_slides_nonlinsvm_modelsel_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_nonlinsvm_kernel_rbf_pdf').textContent = num;
+  document.getElementById('page_num_slides_nonlinsvm_modelsel_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_nonlinsvm_kernel_rbf_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_nonlinsvm_modelsel_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_nonlinsvm_kernel_rbf_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_nonlinsvm_modelsel_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_nonlinsvm_kernel_rbf_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_nonlinsvm_modelsel_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_nonlinsvm_kernel_rbf_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_nonlinsvm_modelsel_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -183,10 +183,8 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-04-rkhs-repr/">&#xab; Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-05-kernel-rbf/">&#xab; Chapter 18.5: The Gaussian RBF Kernel</a></li>
 
-
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-06-model-sel/">Chapter 18.6: SVM Model Selection &#xbb;</a></li>
 
 </ul>
 

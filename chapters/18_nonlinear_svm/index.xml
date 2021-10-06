@@ -51,5 +51,14 @@
       <description>&lt;p&gt;In this section, we introduce the popular Gaussian RBF kernel and discuss its properties.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Chapter 18.6: SVM Model Selection</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-06-model-sel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-06-model-sel/</guid>
+      <description>&lt;p&gt;In this section, we discuss the importance of SVM hyperparameters for adequate solutions.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
