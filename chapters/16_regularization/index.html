@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 11: Advanced Risk Minimization</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 16: Regularization</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,9 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 11: Advanced Risk Minimization</h1>
+<h1>Chapter 16: Regularization</h1>
 
-<p><p>This chapter revisits the theory of risk minimization, providing more in-depth analysis on established losses and the connection between empirical risk minimization and maximum likelihood estimation, and introduces some more advanced loss functions for regression and classification.</p>
+<p><p>Regularization is a vital tool in machine learning to prevent overfitting and foster generalization ability. This chapter introduces the concept of regularization and discusses common regularization techniques in more depth.</p>
 </p>
 
 
@@ -57,10 +57,100 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/">Chapter 11.1: Risk Minimizers</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-01-regu-intro/">Chapter 16.1: Introduction to Regularization</a>
     
       
-        <p>We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.
+        <p>In this section, we revisit overfitting and introduce regularization as a remedy.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-02-l1l2/">Chapter 16.2: Lasso and Ridge Regression</a>
+    
+      
+        <p>We introduce Lasso and Ridge regression as the key approaches to regularizing linear models.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/">Chapter 16.3: Lasso vs. Ridge Regression</a>
+    
+      
+        <p>This section provides a detailed comparison between Lasso and Ridge regression.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-04-enetlogreg/">Chapter 16.4: Elastic Net and Regularization for GLMs</a>
+    
+      
+        <p>In this section, we introduce the elastic net as a combination of Ridge and Lasso regression and discuss regularization for logistic regression.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-05-underdetermined/">Chapter 16.5: Regularization for Underdetermined Problems</a>
+    
+      
+        <p>In this section, we discuss how regularization can make ill-posed problems well-defined.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-06-l0/">Chapter 16.6: L0 Regularization</a>
+    
+      
+        <p>In this section, we introduce \(LQ\) regularization and particularly discuss \(L0\) regularization as an important special case besides \(L1\) and \(L2\) that penalizes the number of non-zero parameters.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/">Chapter 16.7: Regularization in Non-Linear Models and Bayesian Priors</a>
+    
+      
+        <p>In this section, we motivate regularization from a Bayesian perspective, showing how different penalty terms correspond to different Bayesian priors.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-08-geom-l2-wdecay/">Chapter 16.8: Geometric Analysis of L2 Regularization and Weight Decay</a>
+    
+      
+        <p>In this section, we provide a geometric understanding of \(L2\) regularization, showing how parameters are shrunk according to the eigenvalues of the Hessian of empirical risk, and discuss its correspondence to weight decay.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/">Chapter 16.9: Geometric Analysis of L1 Regularization</a>
+    
+      
+        <p>In this section, we provide a geometric understanding of \(L2\) regularization and show that it encourages sparsity in the parameter vector.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/16_regularization/16-10-early-stopping/">Chapter 16.10: Early Stopping</a>
+    
+      
+        <p>In this section, we introduce early stopping and show how it can act as a regularizer.
 </p>
       
       

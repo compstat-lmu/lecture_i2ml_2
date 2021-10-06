@@ -41,8 +41,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</loc>
@@ -68,8 +66,6 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
-  </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/</loc>
   </url><url>
@@ -120,6 +116,28 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-10-early-stopping/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-01-regu-intro/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-02-l1l2/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-04-enetlogreg/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-05-underdetermined/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-06-l0/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-08-geom-l2-wdecay/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/</loc>
   </url><url>

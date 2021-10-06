@@ -152,15 +152,6 @@
     
     <item>
       <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -418,6 +409,96 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</guid>
       <description>&lt;p&gt;In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.10: Early Stopping</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-10-early-stopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-10-early-stopping/</guid>
+      <description>&lt;p&gt;In this section, we introduce early stopping and show how it can act as a regularizer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.1: Introduction to Regularization</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-01-regu-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-01-regu-intro/</guid>
+      <description>&lt;p&gt;In this section, we revisit overfitting and introduce regularization as a remedy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.2: Lasso and Ridge Regression</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-02-l1l2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-02-l1l2/</guid>
+      <description>&lt;p&gt;We introduce Lasso and Ridge regression as the key approaches to regularizing linear models.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.3: Lasso vs. Ridge Regression</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/</guid>
+      <description>&lt;p&gt;This section provides a detailed comparison between Lasso and Ridge regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.4: Elastic Net and Regularization for GLMs</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-04-enetlogreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-04-enetlogreg/</guid>
+      <description>&lt;p&gt;In this section, we introduce the elastic net as a combination of Ridge and Lasso regression and discuss regularization for logistic regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.5: Regularization for Underdetermined Problems</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-05-underdetermined/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-05-underdetermined/</guid>
+      <description>&lt;p&gt;In this section, we discuss how regularization can make ill-posed problems well-defined.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.6: L0 Regularization</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-06-l0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-06-l0/</guid>
+      <description>&lt;p&gt;In this section, we introduce \(LQ\) regularization and particularly discuss \(L0\) regularization as an important special case besides \(L1\) and \(L2\) that penalizes the number of non-zero parameters.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.7: Regularization in Non-Linear Models and Bayesian Priors</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/</guid>
+      <description>&lt;p&gt;In this section, we motivate regularization from a Bayesian perspective, showing how different penalty terms correspond to different Bayesian priors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.8: Geometric Analysis of L2 Regularization and Weight Decay</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-08-geom-l2-wdecay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-08-geom-l2-wdecay/</guid>
+      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization, showing how parameters are shrunk according to the eigenvalues of the Hessian of empirical risk, and discuss its correspondence to weight decay.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.9: Geometric Analysis of L1 Regularization</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</guid>
+      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
     </item>
     
     <item>
