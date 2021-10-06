@@ -152,15 +152,6 @@
     
     <item>
       <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -295,15 +286,6 @@
     </item>
     
     <item>
-      <title>Chapter 12.1: Designing Codebooks and ECOC</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</guid>
-      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass to binary reduction.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 12.1: Multiclass Classification and Losses</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -328,6 +310,78 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</guid>
       <description>&lt;p&gt;It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.4: Designing Codebooks and ECOC</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</guid>
+      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass to binary reduction.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Entropy</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-01-entropy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-01-entropy/</guid>
+      <description>&lt;p&gt;We introduce entropy, which expresses the expected information for discrete random variables, as a central concept in information theory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-02-diffent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-02-diffent/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-04-sourcecoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-04-sourcecoding/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-05-cross-entropy-kld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-05-cross-entropy-kld/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-06-ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-06-ml/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
     </item>
     
     <item>

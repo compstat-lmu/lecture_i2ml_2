@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 12.3: One-vs-One and One-vs-Rest</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 13.1: Risk Minimizers</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 12.3: One-vs-One and One-vs-Rest</h1>
-<p>It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.</p>
+<h1>Chapter 13.1: Risk Minimizers</h1>
+<p>We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/Q24cKI_BS7Q" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/zoSGEGWOUt8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_mc_binary_reduction_pdf">
-    <button class="btn btn-primary" id="prev_slides_mc_binary_reduction_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_info_entropy_pdf">
+    <button class="btn btn-primary" id="prev_slides_info_entropy_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_mc_binary_reduction_pdf"></span> / <span id="page_count_slides_mc_binary_reduction_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_info_entropy_pdf"></span> / <span id="page_count_slides_info_entropy_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_mc_binary_reduction_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/slides-mc-binary-reduction.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_mc_binary_reduction_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_info_entropy_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/slides-info-entropy.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_info_entropy_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_mc_binary_reduction_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_mc_binary_reduction_pdf"></canvas>
+<div id="embed-pdf-container_slides_info_entropy_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_info_entropy_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/12_multiclass\/slides-mc-binary-reduction.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/13_information_theory\/slides-info-entropy.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_mc_binary_reduction_pdf = document.getElementById('the-canvas_slides_mc_binary_reduction_pdf'),
-    ctx = canvas_slides_mc_binary_reduction_pdf.getContext('2d');
+    canvas_slides_info_entropy_pdf = document.getElementById('the-canvas_slides_info_entropy_pdf'),
+    ctx = canvas_slides_info_entropy_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_mc_binary_reduction_pdf.height = viewport.height;
-    canvas_slides_mc_binary_reduction_pdf.width = viewport.width;
+    canvas_slides_info_entropy_pdf.height = viewport.height;
+    canvas_slides_info_entropy_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_mc_binary_reduction_pdf').textContent = num;
+  document.getElementById('page_num_slides_info_entropy_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_mc_binary_reduction_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_info_entropy_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_mc_binary_reduction_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_info_entropy_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_mc_binary_reduction_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_info_entropy_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_mc_binary_reduction_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_info_entropy_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -183,10 +183,10 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/">&#xab; Chapter 12.2: Softmax Regression</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-05-cross-entropy-kld/">&#xab; Chapter 13.1: Risk Minimizers</a></li>
 
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/">Chapter 12.4: Designing Codebooks and ECOC &#xbb;</a></li>
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/">Chapter 13.1: Risk Minimizers &#xbb;</a></li>
 
 </ul>
 

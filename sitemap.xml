@@ -41,8 +41,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</loc>
@@ -75,8 +73,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
@@ -93,13 +89,29 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-01-entropy/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-02-diffent/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-04-sourcecoding/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-05-cross-entropy-kld/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-06-ml/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/</loc>
   </url><url>
