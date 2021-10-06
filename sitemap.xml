@@ -41,6 +41,22 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/11-01-risk-minimizer/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</loc>
+  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-02-pseudo-residuals/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-03-regression-l2/</loc>
@@ -58,6 +74,32 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/</loc>
   </url><url>

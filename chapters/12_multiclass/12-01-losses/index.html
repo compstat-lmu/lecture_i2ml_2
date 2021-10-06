@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
+
+
+<title>Introduction to Machine Learning (I2ML) | Chapter 12.1: Multiclass Classification and Losses</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/lecture_i2ml_2/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/lecture_i2ml_2/favicon-16x16.png">
+<link rel="manifest" href="/lecture_i2ml_2/site.webmanifest">
+<link rel="mask-icon" href="/lecture_i2ml_2/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+</head><body>
+<img id="logo" src="/lecture_i2ml_2/i2ml.svg" />
+
+<div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+        
+        <a class="nav-link" href="/lecture_i2ml_2">
+        
+        Home
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/chapters/">
+        
+        Chapters
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/appendix/">
+        
+        Appendix
+        </a>
+        
+        <a class="nav-link" href="/lecture_i2ml_2/team/">
+        
+        Team
+        </a>
+        
+    </nav>
+</div><div id="content" class="container">
+<h1>Chapter 12.1: Multiclass Classification and Losses</h1>
+<p>In this section, we introduce the basic concepts in multiclass (MC) classification and important MC losses: MC 0-1 loss, MC brier score, and MC logarithmic loss.</p>
+<h3 id="lecture-video">Lecture video</h3>
+<div class="embedded_video">
+  <iframe src="https://www.youtube-nocookie.com/embed/sISj6dUCrro" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="lecture-slides">Lecture slides</h3>
+
+
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.min.js" integrity="sha256-hEmjt7z3bB53X/awJyV81gmBLpVw2mj7EsvoJelZWow=" crossorigin="anonymous"></script>
+
+
+
+
+<div class="pdf">
+<div class="pdf-paginator" id="paginator_slides_mc_losses_pdf">
+    <button class="btn btn-primary" id="prev_slides_mc_losses_pdf">Previous</button>
+    &nbsp;
+    <span>Page: <span id="page_num_slides_mc_losses_pdf"></span> / <span id="page_count_slides_mc_losses_pdf"></span></span>
+    &nbsp;
+    <button class="btn btn-primary" id="next_slides_mc_losses_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/slides-mc-losses.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_mc_losses_pdf">PDF</button></a>
+</div>
+<div id="embed-pdf-container_slides_mc_losses_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_mc_losses_pdf"></canvas>
+</div>
+</div>
+
+<script type="text/javascript">
+window.addEventListener("load",function(){
+
+
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/12_multiclass\/slides-mc-losses.pdf';
+var hidePaginator = "";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@2.9.359/build/pdf.worker.min.js";
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas_slides_mc_losses_pdf = document.getElementById('the-canvas_slides_mc_losses_pdf'),
+    ctx = canvas_slides_mc_losses_pdf.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas_slides_mc_losses_pdf.height = viewport.height;
+    canvas_slides_mc_losses_pdf.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num_slides_mc_losses_pdf').textContent = num;
+}
+
+
+
+function queuerenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator == "true") {
+  document.getElementById("paginator_slides_mc_losses_pdf").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queuerenderPage(pageNum);
+}
+document.getElementById('prev_slides_mc_losses_pdf').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queuerenderPage(pageNum);
+}
+document.getElementById('next_slides_mc_losses_pdf').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count_slides_mc_losses_pdf').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+})
+
+</script>
+
+
+<ul class="section_skipper list-unstyled">
+
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/">&#xab; Chapter 12.1: Designing Codebooks and ECOC</a></li>
+
+
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/">Chapter 12.2: Softmax Regression &#xbb;</a></li>
+
+</ul>
+
+
+
+
+        </div><footer class="bg-light text-center text-lg-start fixed-bottom">
+<ul class="list-inline text-center">
+  <li class="list-inline-item">© 2021 Course Creator</li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="https://github.com/compstat-lmu/lecture_i2ml" target="_blank">Course content</a></li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="/lecture_i2ml_2" target="_blank">Main Course Website</a></li>
+  
+  <li class="list-inline-item"><a class="nav-link" href="https://github.com/jakob-r/hugo-course" target="_blank">Website source code</a></li>
+  
+</ul>
+</footer>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      ignoreHtmlClass: ['quizdown']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

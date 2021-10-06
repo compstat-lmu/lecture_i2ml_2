@@ -151,6 +151,78 @@
     </item>
     
     <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.1: Risk Minimizers</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 11.2: Pseudo-Residuals</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -220,6 +292,42 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</guid>
       <description>&lt;p&gt;In this section, we introduce and discuss the following advanced classification losses: (squared) hinge loss, \(L2\) loss on scores, exponential loss, and AUC loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.1: Designing Codebooks and ECOC</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</guid>
+      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass to binary reduction.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.1: Multiclass Classification and Losses</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</guid>
+      <description>&lt;p&gt;In this section, we introduce the basic concepts in multiclass (MC) classification and important MC losses: MC 0-1 loss, MC brier score, and MC logarithmic loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.2: Softmax Regression</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</guid>
+      <description>&lt;p&gt;In this section, we introduce softmax regression as a generalization of logistic regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.3: One-vs-One and One-vs-Rest</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</guid>
+      <description>&lt;p&gt;It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.&lt;/p&gt;</description>
     </item>
     
     <item>
