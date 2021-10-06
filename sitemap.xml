@@ -41,8 +41,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-02-pseudo-residuals/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-03-regression-l2/</loc>
@@ -60,8 +58,6 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
-  </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</loc>
   </url><url>
@@ -170,6 +166,12 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-02-linearmodel/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-03-polynomials/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-01-intro-adaboost/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-02-gradient-boosting-concept/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/</loc>
   </url><url>

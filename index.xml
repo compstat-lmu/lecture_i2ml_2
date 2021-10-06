@@ -151,15 +151,6 @@
     </item>
     
     <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 11.2: Pseudo-Residuals</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -634,6 +625,24 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-03-polynomials/</guid>
       <description>&lt;p&gt;This section introduces polynomials to obtain more flexible models for the regression task. We explain the connection to the basic linear model and discuss the problem of overfitting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 20.1: Introduction to Boosting / AdaBoost</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-01-intro-adaboost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-01-intro-adaboost/</guid>
+      <description>&lt;p&gt;In this section, we introduce the pioneering AdaBoost algorithm.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 20.2: Boosting Concept</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-02-gradient-boosting-concept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-02-gradient-boosting-concept/</guid>
+      <description>&lt;p&gt;In this section, we discuss the general boosting principle: performing gradient descent in function space by repeatedly fitting new base learner components to the current pseudo-residuals.&lt;/p&gt;</description>
     </item>
     
     <item>
