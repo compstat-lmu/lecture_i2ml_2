@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chapter 18: Nonlinear Support Vector Machine on Introduction to Machine Learning (I2ML)</title>
+    <title>Chapter 18: Nonlinear Support Vector Machines on Introduction to Machine Learning (I2ML)</title>
     <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/</link>
-    <description>Recent content in Chapter 18: Nonlinear Support Vector Machine on Introduction to Machine Learning (I2ML)</description>
+    <description>Recent content in Chapter 18: Nonlinear Support Vector Machines on Introduction to Machine Learning (I2ML)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/index.xml" rel="self" type="application/rss+xml" />
     <item>

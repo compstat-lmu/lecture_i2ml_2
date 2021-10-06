@@ -124,7 +124,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.10: Maximum Likelihood Estimation vs. Empirical Risk Minimization I</title>
+      <title>Chapter 11.10: Maximum Likelihood Estimation vs Empirical Risk Minimization I</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-10-max-likelihood-l2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -133,7 +133,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.11: Maximum Likelihood Estimation vs. Empirical Risk Minimization II</title>
+      <title>Chapter 11.11: Maximum Likelihood Estimation vs Empirical Risk Minimization II</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-11-max-likelihood-other/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -403,7 +403,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.3: Lasso vs. Ridge Regression</title>
+      <title>Chapter 16.3: Lasso vs Ridge Regression</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -439,7 +439,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.7: Regularization in Non-Linear Models and Bayesian Priors</title>
+      <title>Chapter 16.7: Regularization in NonLinear Models and Bayesian Priors</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -502,7 +502,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.5: Support Vector Machine Training</title>
+      <title>Chapter 17.5: SVM Training</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -691,6 +691,15 @@
     </item>
     
     <item>
+      <title>Chapter 3.6: Naive Bayes</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</guid>
+      <description>&lt;p&gt;Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 4.1: Introduction</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -853,12 +862,12 @@
     </item>
     
     <item>
-      <title>Chapter 7.3: Benchmarking Trees, Forests, and Bagging K-NN</title>
+      <title>Chapter 7.3: Benchmarking Trees, Forests, and Bagging k-NN</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/</guid>
-      <description>&lt;p&gt;We compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.&lt;/p&gt;</description>
+      <description>&lt;p&gt;We compare the performance of random forests vs. (bagged) CART and (bagged) \(k\)-NN.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -916,7 +925,7 @@
     </item>
     
     <item>
-      <title>Chapter 9.1: Nested Resampling Motivation</title>
+      <title>Chapter 9.1: Motivation</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-01-nestedintro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -940,15 +949,6 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-03-nestedresampling/</guid>
       <description>&lt;p&gt;In this section, we will explain why and how nested resampling is done.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter Chapter 3.6: Naive Bayes</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</guid>
-      <description>&lt;p&gt;Naive Bayes is a generative approach based on an assumption of conditional independence and closely related to LDA and QDA.&lt;/p&gt;</description>
     </item>
     
     <item>

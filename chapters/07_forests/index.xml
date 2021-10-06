@@ -25,12 +25,12 @@
     </item>
     
     <item>
-      <title>Chapter 7.3: Benchmarking Trees, Forests, and Bagging K-NN</title>
+      <title>Chapter 7.3: Benchmarking Trees, Forests, and Bagging k-NN</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/</guid>
-      <description>&lt;p&gt;We compare the performance of random forests vs. (bagged) CART and (bagged) k-NN.&lt;/p&gt;</description>
+      <description>&lt;p&gt;We compare the performance of random forests vs. (bagged) CART and (bagged) \(k\)-NN.&lt;/p&gt;</description>
     </item>
     
     <item>
