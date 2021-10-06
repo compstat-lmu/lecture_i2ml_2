@@ -741,7 +741,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-04-measures-classification-roc/</guid>
-      <description>&lt;p&gt;From the confusion matrix we can calculate a variety of &amp;ldquo;ROC&amp;rdquo; metrics. Among others, we will explain true positive rate, negative predictive value and the $F1$ measure.&lt;/p&gt;</description>
+      <description>&lt;p&gt;From the confusion matrix we can calculate a variety of ROC metrics. Among others, we will explain true positive rate, negative predictive value and the $F1$ measure.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -759,7 +759,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-06-overfitting/</guid>
-      <description>&lt;p&gt;When a machine learning model performs well on training data but doesn&amp;rsquo;t generalize on the test data, we speak of overfitting. We will show you examples of this behavior and how to diagnose overfitting.&lt;/p&gt;</description>
+      <description>&lt;p&gt;When a machine learning model performs well on training data but does not generalize on the test data, we speak of overfitting. We will show you examples of this behavior and how to diagnose overfitting.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -804,7 +804,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-01-intro/</guid>
-      <description>&lt;p&gt;Decision trees are an important type of machine learning models and come in two main types: classification and regression trees. In this section, we explain the general idea of CART and show how they recursively divide up the input space into ever smaller rectangular partitions.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Decision trees are an important type of machine learning model and come in two main types: classification and regression trees. In this section, we explain the general idea of CART and show how they recursively divide up the input space into ever smaller rectangular partitions.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -813,7 +813,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-02-splitcriteria/</guid>
-      <description>&lt;p&gt;CART algorithms require splitting criteria for trees, which are usually defined in terms of &lt;em&gt;impurity reduction&lt;/em&gt;. In this section we formalize the idea of splitting criteria and explain the details of splitting for both regression and classification.&lt;/p&gt;</description>
+      <description>&lt;p&gt;CART algorithms require splitting criteria for trees, which are usually defined in terms of impurity reduction. In this section we formalize the idea of splitting criteria and explain the details of splitting for both regression and classification.&lt;/p&gt;</description>
     </item>
     
     <item>
