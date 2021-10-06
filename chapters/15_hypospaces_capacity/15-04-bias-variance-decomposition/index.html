@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 14.1: Curse of Dimensionality</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 15.4: Bias-Variance Decomposition</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 14.1: Curse of Dimensionality</h1>
-<p>In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality.</p>
+<h1>Chapter 15.4: Bias-Variance Decomposition</h1>
+<p>In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/MYzDeYbkqV4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/9ax07tD_WI4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_cod_pdf">
-    <button class="btn btn-primary" id="prev_slides_cod_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_hypospaces_bias_variance_decomposition_pdf">
+    <button class="btn btn-primary" id="prev_slides_hypospaces_bias_variance_decomposition_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_cod_pdf"></span> / <span id="page_count_slides_cod_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_hypospaces_bias_variance_decomposition_pdf"></span> / <span id="page_count_slides_hypospaces_bias_variance_decomposition_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_cod_pdf">Next</button>
-    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/slides-cod.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_cod_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_hypospaces_bias_variance_decomposition_pdf">Next</button>
+    <a href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/slides-hypospaces-bias-variance-decomposition.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_hypospaces_bias_variance_decomposition_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_cod_pdf">
-    <canvas class="pdf-canvas" id="the-canvas_slides_cod_pdf"></canvas>
+<div id="embed-pdf-container_slides_hypospaces_bias_variance_decomposition_pdf">
+    <canvas class="pdf-canvas" id="the-canvas_slides_hypospaces_bias_variance_decomposition_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/14_cod\/slides-cod.pdf';
+var url = 'https:\/\/compstat-lmu.github.io\/lecture_i2ml_2\/chapters\/15_hypospaces_capacity\/slides-hypospaces-bias-variance-decomposition.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_cod_pdf = document.getElementById('the-canvas_slides_cod_pdf'),
-    ctx = canvas_slides_cod_pdf.getContext('2d');
+    canvas_slides_hypospaces_bias_variance_decomposition_pdf = document.getElementById('the-canvas_slides_hypospaces_bias_variance_decomposition_pdf'),
+    ctx = canvas_slides_hypospaces_bias_variance_decomposition_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_cod_pdf.height = viewport.height;
-    canvas_slides_cod_pdf.width = viewport.width;
+    canvas_slides_hypospaces_bias_variance_decomposition_pdf.height = viewport.height;
+    canvas_slides_hypospaces_bias_variance_decomposition_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_cod_pdf').textContent = num;
+  document.getElementById('page_num_slides_hypospaces_bias_variance_decomposition_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_cod_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_hypospaces_bias_variance_decomposition_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_cod_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_hypospaces_bias_variance_decomposition_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_cod_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_hypospaces_bias_variance_decomposition_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_cod_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_hypospaces_bias_variance_decomposition_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -183,8 +183,10 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 <ul class="section_skipper list-unstyled">
 
+  <li id="next_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-03-complexity/">&#xab; Chapter 15.3: PAC Learning and VC Dimension</a></li>
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/">Chapter 14.2: Curse of Dimensionality - Examples &#xbb;</a></li>
+
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/">Chapter 15.: Capacity and Overfitting &#xbb;</a></li>
 
 </ul>
 

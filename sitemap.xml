@@ -41,8 +41,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/11-01-risk-minimizer/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/11-01-risk-minimizer/</loc>
@@ -70,8 +68,6 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
-  </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/</loc>
   </url><url>
@@ -114,6 +110,16 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-03-complexity/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/</loc>
   </url><url>

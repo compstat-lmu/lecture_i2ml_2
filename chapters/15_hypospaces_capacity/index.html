@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/lecture_i2ml_2/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 11: Advanced Risk Minimization</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 15: Hypothesis Spaces</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/lecture_i2ml_2/apple-touch-icon.png">
@@ -46,9 +46,9 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 11: Advanced Risk Minimization</h1>
+<h1>Chapter 15: Hypothesis Spaces</h1>
 
-<p><p>This chapter revisits the theory of risk minimization, providing more in-depth analysis on established losses and the connection between empirical risk minimization and maximum likelihood estimation, and introduces some more advanced loss functions for regression and classification.</p>
+<p><p>Machine learning constantly balances model fit and generalization ability. This chapter discusses the capacity of hypothesis spaces in more depth, also touching upon Vapnik-Chervonenkis (VC) dimensions and probably approximately correct (PAC) learning.</p>
 </p>
 
 
@@ -57,10 +57,40 @@
 
 
 <li>
-    <a class="title" href="/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/">Chapter 11.1: Risk Minimizers</a>
+    <a class="title" href="/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/">Chapter 15.1: Examples of Hypothesis Spaces</a>
     
       
-        <p>We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.
+        <p>In this section, we show examples for formal definitions of hypothesis spaces.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/">Chapter 15.: Capacity and Overfitting</a>
+    
+      
+        <p>In this section, we discuss how the capacity of a hypothesis influences the overfitting behavior of a learner.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-03-complexity/">Chapter 15.3: PAC Learning and VC Dimension</a>
+    
+      
+        <p>The &amp;ldquo;no free lunch&amp;rdquo; theorem implies that we cannot construct a universally optimal learner. More precisely, only finite hypothesis spaces, as measured by Vapnik-Chervonenkis (VC) dimension, are agnostic probably-approximately-correct (PAC) learnable, which we will discuss in this section.
+</p>
+      
+      
+</li>
+
+<li>
+    <a class="title" href="/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/">Chapter 15.4: Bias-Variance Decomposition</a>
+    
+      
+        <p>In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.
 </p>
       
       
