@@ -87,8 +87,6 @@
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</loc>
-  </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</loc>
@@ -96,6 +94,8 @@
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</loc>
+  </url><url>
+    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</loc>
   </url><url>
     <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-01-entropy/</loc>
   </url><url>
