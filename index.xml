@@ -336,7 +336,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/</guid>
-      <description>&lt;p&gt;In this section, we show examples of how \((k\)-NN and the linear model suffer from the the curse of dimensionality.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we show examples of how \(k\)-NN and the linear model suffer from the the curse of dimensionality.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -462,7 +462,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</guid>
-      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L1\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
     </item>
     
     <item>
