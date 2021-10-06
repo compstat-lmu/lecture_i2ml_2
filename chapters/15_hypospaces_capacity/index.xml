@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Chapter 15.2: Capacity and Overfitting</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</guid>
+      <description>&lt;p&gt;In this section, we discuss how the capacity of a hypothesis influences the overfitting behavior of a learner.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 15.3: PAC Learning and VC Dimension</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-03-complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,15 +40,6 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</guid>
       <description>&lt;p&gt;In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 15.: Capacity and Overfitting</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</guid>
-      <description>&lt;p&gt;In this section, we discuss how the capacity of a hypothesis influences the overfitting behavior of a learner.&lt;/p&gt;</description>
     </item>
     
   </channel>
