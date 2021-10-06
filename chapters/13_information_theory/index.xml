@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</guid>
-      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distribution. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distributions. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -152,15 +152,6 @@
     
     <item>
       <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
       <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/11-01-risk-minimizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -345,7 +336,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</guid>
-      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distribution. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distributions. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -382,6 +373,24 @@
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</guid>
       <description>&lt;p&gt;Information theory also provides means of quantifying relations between two random variables that extend the concept of (linear) correlation. We discuss joint entropy, conditional entropy, and mutual information.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 14.1: Curse of Dimensionality</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-01-cod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-01-cod/</guid>
+      <description>&lt;p&gt;In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 14.1: Curse of Dimensionality - Examples</title>
+      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/</guid>
+      <description>&lt;p&gt;In this section, we show examples of how ((k\)-NN and the linear model suffer from the the curse of dimensionality.&lt;/p&gt;</description>
     </item>
     
     <item>
