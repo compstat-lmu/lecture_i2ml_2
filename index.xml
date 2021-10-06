@@ -255,7 +255,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</guid>
-      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass to binary reduction.&lt;/p&gt;</description>
+      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass-to- binary reduction.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -318,7 +318,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</guid>
-      <description>&lt;p&gt;Information theory also provides means of quantifying relations between two random variables that extend the concept of (linear) correlation. We discuss joint entropy, conditional entropy, and mutual information.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Information theory also provides means of quantifying relations between two random variables that extend the concept of (linear) correlation. We discuss joint entropy, conditional entropy, and mutual information in this context.&lt;/p&gt;</description>
     </item>
     
     <item>
