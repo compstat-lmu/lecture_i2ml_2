@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chapter 17: Linear Support Vector Machines on Introduction to Machine Learning (I2ML)</title>
-    <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/</link>
+    <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/</link>
     <description>Recent content in Chapter 17: Linear Support Vector Machines on Introduction to Machine Learning (I2ML)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 17.1: Linear Hard Margin SVM</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</guid>
       <description>&lt;p&gt;Hard margin SVMs seek perfect data separation. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 17.2: Hard Margin SVM Dual</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</guid>
       <description>&lt;p&gt;In this section, we derive the dual variant of the linear hard-margin SVM problem, a computationally favorable formulation.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 17.3: Soft Margin SVM</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</guid>
       <description>&lt;p&gt;Hard margin SVMs are often not applicable to practical questions because they fail when the data are not linearly separable. Moreover, for the sake of generalization, we will often accept some violations to keep the margin large enough for robust class separation. Therefore, we introduce the soft margin linear SVM.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</guid>
       <description>&lt;p&gt;In this section, we show how the SVM problem can be understood as an instance of empirical risk minimization.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 17.5: SVM Training</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</guid>
       <description>&lt;p&gt;The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.&lt;/p&gt;</description>
     </item>
     

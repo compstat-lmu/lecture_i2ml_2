@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chapter 8: Tuning on Introduction to Machine Learning (I2ML)</title>
-    <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/</link>
+    <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/</link>
     <description>Recent content in Chapter 8: Tuning on Introduction to Machine Learning (I2ML)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/08_tuning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 8.1: Introduction</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-01-intro/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-01-intro/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-01-intro/</guid>
       <description>&lt;p&gt;While model parameters are optimized during training, hyperparameters must be specified in advance. In this section, we will motivate why it is crucial to find good values for, i.e. to tune, these hyperparameters.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 8.2: Problem Definition</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-02-tuning-tuningproblem/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-02-tuning-tuningproblem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-02-tuning-tuningproblem/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-02-tuning-tuningproblem/</guid>
       <description>&lt;p&gt;Hyperparameter tuning is the process of finding good model hyperparameters. In this section we formalize the problem of tuning and explain why tuning is computationally hard.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 8.3: Basic Techniques</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-03-basicalgos/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-03-basicalgos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-03-basicalgos/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-03-basicalgos/</guid>
       <description>&lt;p&gt;In this section we familiarize ourselves with two simple but popular tuning strategies, namely grid search and random search, and discuss their advantages and disadvantages.&lt;/p&gt;</description>
     </item>
     

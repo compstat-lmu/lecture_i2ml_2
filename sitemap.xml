@@ -2,271 +2,271 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/team/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/team/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/appendix/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/appendix/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/categories/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/categories/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-01-basics-whatisml/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-01-basics-whatisml/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-02-data/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-02-data/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-03-tasks/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-03-tasks/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-04-models-parameters/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-04-models-parameters/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-05-learner/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-05-learner/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-06-riskminimization/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-06-riskminimization/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-07-optimization/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-07-optimization/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/01-08-learnercomponents-hro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-08-learnercomponents-hro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-01-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-02-resampling/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-03-tuning/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/10-04-pipelines/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/10_mlr3/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-10-max-likelihood-l2/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-10-max-likelihood-l2/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-11-max-likelihood-other/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-11-max-likelihood-other/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-01-risk-minimizer/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-02-pseudo-residuals/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-03-regression-l2/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-04-regression-l1/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-05-regression-further-losses/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-06-classification-01/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-07-classification-bernoulli/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-08-classification-brier/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/11_advriskmin/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-01-entropy/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-02-diffent/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-03-kl/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-04-sourcecoding/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-05-cross-entropy-kld/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-06-ml/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/13-07-mutual-info/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/13_information_theory/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-01-cod/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/14-02-cod-examples/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/14_cod/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/14_cod/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-03-complexity/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/15_hypospaces_capacity/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-10-early-stopping/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-01-regu-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-02-l1l2/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-03-l1vsl12/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-04-enetlogreg/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-05-underdetermined/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-06-l0/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-07-nonlin-bayes/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-08-geom-l2-wdecay/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/16-09-geom-l1/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/16_regularization/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-01-hard-margin/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-02-hard-margin-dual/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-03-soft-margin/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-04-erm/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/17-05-optimization/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/17_linear_svm/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-01-featuregen/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-02-kernel-trick/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-03-kernel-poly/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-04-rkhs-repr/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-05-kernel-rbf/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/18-06-model-sel/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/18_nonlinear_svm/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/19-01-bayes-lm/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/19-02-basic/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/19-03-covariance/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/19-04-prediction/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/19-05-training/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/19_gaussian_processes/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/01_ml_basics/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-01-losses/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-01-losses/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-02-linearmodel/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-02-linearmodel/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/02-03-polynomials/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-03-polynomials/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-01-intro-adaboost/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/20-02-gradient-boosting-concept/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/20_boosting/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/02_supervised_regression/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-01-tasks/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-01-tasks/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-02-classification-basicdefs/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-02-classification-basicdefs/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-03-classification-linear/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-03-classification-linear/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-04-classification-logistic/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-04-classification-logistic/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-05-classification-discranalysis/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-05-classification-discranalysis/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/03-06-classification-naivebayes/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-06-classification-naivebayes/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/03_supervised_classification/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-01-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-02-measures-regression/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-02-measures-regression/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-03-measures-classification/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-measures-classification/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-04-measures-classification-roc/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-measures-classification-roc/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-05-measures-classification-roc-space/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-measures-classification-roc-space/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-06-overfitting/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-overfitting/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-07-train/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-train/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-08-test/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-test/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/04-09-resampling/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-resampling/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/04_evaluation/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/05_knn/05-01-knn/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/05_knn/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-01-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-01-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-02-splitcriteria/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-02-splitcriteria/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-03-treegrowing/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-03-treegrowing/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-04-splitcomputation/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-04-splitcomputation/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-05-stoppingpruning/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-05-stoppingpruning/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/06-06-discussion/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-06-discussion/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/06_trees/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-01-bagging/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-01-bagging/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-02-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-02-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-03-benchmark/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-03-benchmark/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-04-featureimportance/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-04-featureimportance/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-05-proximities/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-05-proximities/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/07-06-discussion/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-06-discussion/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/07_forests/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-01-intro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-01-intro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-02-tuning-tuningproblem/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-02-tuning-tuningproblem/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/08-03-basicalgos/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-03-basicalgos/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/08_tuning/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-01-nestedintro/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-01-nestedintro/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-02-trainvalidtest/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-02-trainvalidtest/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/09-03-nestedresampling/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-03-nestedresampling/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/09_nested_resampling/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/appendix/01_cheat_sheets/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/appendix/01_cheat_sheets/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/appendix/02_errata/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/appendix/02_errata/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/</loc>
   </url><url>
-    <loc>https://compstat-lmu.github.io/lecture_i2ml_2/tags/</loc>
+    <loc>https://slds-lmu.github.io/i2ml/tags/</loc>
   </url>
 </urlset>

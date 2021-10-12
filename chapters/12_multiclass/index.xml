@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chapter 12: Multiclass Classification on Introduction to Machine Learning (I2ML)</title>
-    <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/</link>
+    <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/</link>
     <description>Recent content in Chapter 12: Multiclass Classification on Introduction to Machine Learning (I2ML)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/12_multiclass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 12.1: Multiclass Classification and Losses</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-01-losses/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</guid>
       <description>&lt;p&gt;In this section, we introduce the basic concepts in multiclass (MC) classification and important MC losses: MC 0-1 loss, MC brier score, and MC logarithmic loss.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 12.2: Softmax Regression</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-02-softmax-regression/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</guid>
       <description>&lt;p&gt;In this section, we introduce softmax regression as a generalization of logistic regression.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 12.3: One-vs-One and One-vs-Rest</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-03-binary-reduction/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</guid>
       <description>&lt;p&gt;It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Chapter 12.4: Designing Codebooks and ECOC</title>
-      <link>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</link>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://compstat-lmu.github.io/lecture_i2ml_2/chapters/12_multiclass/12-04-codebooks/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</guid>
       <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass-to- binary reduction.&lt;/p&gt;</description>
     </item>
     
