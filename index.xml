@@ -7,15 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://slds-lmu.github.io/i2ml/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/team/</guid>
-      <description>Team  Bernd Bischl wrote the initial version of most of the course material, and teaches various master courses in ML and DL at the LMU for stats and data science. Ludwig Bothmann joined the team in summer 2020 and is in charge of the classes held in winter 2021/22 at LMU Munich. Fabian Scheipl joined the team in fall 2018 and contributed to the slides, videos and code demos. Heidi Seibold joined the team in fall 2019 and was in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld.</description>
-    </item>
-    
-    <item>
       <title>Chapter 1.1: What is ML?</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-01-basics-whatisml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -88,528 +79,6 @@
     </item>
     
     <item>
-      <title>Chapter 10.1: Intro to mlr3</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</guid>
-      <description>&lt;p&gt;In this section, we introduce the basic concepts of the R package mlr3.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 10.2: Resampling with mlr3</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</guid>
-      <description>&lt;p&gt;mlr3 supports various forms of resampling, which we will demonstrate in this section.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 10.3: Tuning with mlr3</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</guid>
-      <description>&lt;p&gt;We can easily conduct hyperparameter tuning with mrl3&amp;rsquo;s modular ecosystem, defining custom search spaces and suitable tuning algorithms.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 10.4: Pipelines with mlr3</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</guid>
-      <description>&lt;p&gt;Pipelines provide an important tool to package all relevant machine learning steps into a single object that can be treated just like any other learner, ensuring adherence to the train-test split principle even in the face of complex analyses.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.10: Maximum Likelihood Estimation vs Empirical Risk Minimization I</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-10-max-likelihood-l2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-10-max-likelihood-l2/</guid>
-      <description>&lt;p&gt;We discuss the connection between maximum likelihood estimation and risk minimization, then demonstrate the correspondence between a Gaussian error distribution and \(L2\) loss.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.11: Maximum Likelihood Estimation vs Empirical Risk Minimization II</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-11-max-likelihood-other/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-11-max-likelihood-other/</guid>
-      <description>&lt;p&gt;We discuss the connection between maximum likelihood estimation and risk minimization for further losses (\(L1\) loss, Bernoulli loss).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.1: Risk Minimizers</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-01-risk-minimizer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-01-risk-minimizer/</guid>
-      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.2: Pseudo-Residuals</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</guid>
-      <description>&lt;p&gt;We introduce the concept of pseudo-residuals, i.e., loss residuals in function space, and discuss their relation to gradient descent.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.3: L2 Loss</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</guid>
-      <description>&lt;p&gt;In this section, we revisit \(L2\) loss and derive its risk minimizer &amp;ndash; the conditional mean &amp;ndash; and optimal constant model &amp;ndash; the empirical mean of observed target values.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.4: L1 Loss</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</guid>
-      <description>&lt;p&gt;In this section, we revisit \(L1\) loss and derive its risk minimizer &amp;ndash; the conditional median &amp;ndash; and optimal constant model &amp;ndash; the empirical median of observed target values.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.5: Advanced Regression Losses</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</guid>
-      <description>&lt;p&gt;In this section, we introduce and discuss the following advanced regression losses: Huber, log-cosh, Cauchy, log-barrier, epsilon-insensitive, and quantile loss.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.6: 0-1 Loss</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</guid>
-      <description>&lt;p&gt;In this section, we revisit the 0-1 loss and derive its risk minimizer .&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.7: Bernoulli Loss</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</guid>
-      <description>&lt;p&gt;We study the Bernoulli loss and derive its risk minimizer and optimal constant model. We further discuss the connection between Bernoulli loss minimization and tree splitting according to the entropy criterion.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.8: Brier Score</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</guid>
-      <description>&lt;p&gt;In this section, we introduce the Brier score and derive its risk minimizer and optimal constant model. We further discuss the connection between Brier score minimization and tree splitting according to the Gini index.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 11.9: Advanced Classification Losses</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</guid>
-      <description>&lt;p&gt;In this section, we introduce and discuss the following advanced classification losses: (squared) hinge loss, \(L2\) loss on scores, exponential loss, and AUC loss.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 12.1: Multiclass Classification and Losses</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</guid>
-      <description>&lt;p&gt;In this section, we introduce the basic concepts in multiclass (MC) classification and important MC losses: MC 0-1 loss, MC brier score, and MC logarithmic loss.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 12.2: Softmax Regression</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</guid>
-      <description>&lt;p&gt;In this section, we introduce softmax regression as a generalization of logistic regression.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 12.3: One-vs-One and One-vs-Rest</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</guid>
-      <description>&lt;p&gt;It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 12.4: Designing Codebooks and ECOC</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</guid>
-      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass-to- binary reduction.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.1: Entropy</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</guid>
-      <description>&lt;p&gt;We introduce entropy, which expresses the expected information for discrete random variables, as a central concept in information theory.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.2: Differential Entropy</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</guid>
-      <description>&lt;p&gt;In this section, we extend the definition of entropy to the continuous case.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.3: Kullback-Leibler Divergence</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</guid>
-      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distributions. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.4: Entropy and Optimal Code Length</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</guid>
-      <description>&lt;p&gt;In this section, we introduce source coding and discuss how entropy can be understood as optimal code length.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.5: Cross-Entropy, KL and Source Coding</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</guid>
-      <description>&lt;p&gt;We introduce cross-entropy as a further information-theoretic concept and discuss the connection between entropy, cross-entropy, and Kullback-Leibler divergence.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.6: Information Theory for Machine Learning</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</guid>
-      <description>&lt;p&gt;In this section, we discuss how information-theoretic concepts are used in machine learning and demonstrate the equivalence of KL minimization and maximum likelihood maximization, as well as how (cross-)entropy can be used as a loss function.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.7: Joint Entropy and Mutual Information</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</guid>
-      <description>&lt;p&gt;Information theory also provides means of quantifying relations between two random variables that extend the concept of (linear) correlation. We discuss joint entropy, conditional entropy, and mutual information in this context.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 14.1: Curse of Dimensionality</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</guid>
-      <description>&lt;p&gt;In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 14.2: Curse of Dimensionality - Examples</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</guid>
-      <description>&lt;p&gt;In this section, we show examples of how \(k\)-NN and the linear model suffer from the the curse of dimensionality.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 15.1: Examples of Hypothesis Spaces</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</guid>
-      <description>&lt;p&gt;In this section, we show examples for formal definitions of hypothesis spaces.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 15.2: Capacity and Overfitting</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</guid>
-      <description>&lt;p&gt;In this section, we discuss how the capacity of a hypothesis influences the overfitting behavior of a learner.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 15.3: PAC Learning and VC Dimension</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</guid>
-      <description>&lt;p&gt;The &amp;ldquo;no free lunch&amp;rdquo; theorem implies that we cannot construct a universally optimal learner. More precisely, only finite hypothesis spaces, as measured by Vapnik-Chervonenkis (VC) dimension, are agnostic probably-approximately-correct (PAC) learnable, which we will discuss in this section.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 15.4: Bias-Variance Decomposition</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</guid>
-      <description>&lt;p&gt;In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.10: Early Stopping</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</guid>
-      <description>&lt;p&gt;In this section, we introduce early stopping and show how it can act as a regularizer.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.1: Introduction to Regularization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</guid>
-      <description>&lt;p&gt;In this section, we revisit overfitting and introduce regularization as a remedy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.2: Lasso and Ridge Regression</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</guid>
-      <description>&lt;p&gt;We introduce Lasso and Ridge regression as the key approaches to regularizing linear models.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.3: Lasso vs Ridge Regression</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</guid>
-      <description>&lt;p&gt;This section provides a detailed comparison between Lasso and Ridge regression.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.4: Elastic Net and Regularization for GLMs</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</guid>
-      <description>&lt;p&gt;In this section, we introduce the elastic net as a combination of Ridge and Lasso regression and discuss regularization for logistic regression.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.5: Regularization for Underdetermined Problems</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</guid>
-      <description>&lt;p&gt;In this section, we discuss how regularization can make ill-posed problems well-defined.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.6: L0 Regularization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</guid>
-      <description>&lt;p&gt;In this section, we introduce \(LQ\) regularization and particularly discuss \(L0\) regularization as an important special case besides \(L1\) and \(L2\) that penalizes the number of non-zero parameters.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.7: Regularization in NonLinear Models and Bayesian Priors</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</guid>
-      <description>&lt;p&gt;In this section, we motivate regularization from a Bayesian perspective, showing how different penalty terms correspond to different Bayesian priors.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.8: Geometric Analysis of L2 Regularization and Weight Decay</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</guid>
-      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization, showing how parameters are shrunk according to the eigenvalues of the Hessian of empirical risk, and discuss its correspondence to weight decay.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 16.9: Geometric Analysis of L1 Regularization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</guid>
-      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L1\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 17.1: Linear Hard Margin SVM</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</guid>
-      <description>&lt;p&gt;Hard margin SVMs seek perfect data separation. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 17.2: Hard Margin SVM Dual</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</guid>
-      <description>&lt;p&gt;In this section, we derive the dual variant of the linear hard-margin SVM problem, a computationally favorable formulation.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 17.3: Soft Margin SVM</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</guid>
-      <description>&lt;p&gt;Hard margin SVMs are often not applicable to practical questions because they fail when the data are not linearly separable. Moreover, for the sake of generalization, we will often accept some violations to keep the margin large enough for robust class separation. Therefore, we introduce the soft margin linear SVM.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</guid>
-      <description>&lt;p&gt;In this section, we show how the SVM problem can be understood as an instance of empirical risk minimization.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 17.5: SVM Training</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</guid>
-      <description>&lt;p&gt;The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.1: Feature Generation for Nonlinear Separation</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</guid>
-      <description>&lt;p&gt;We show how nonlinear feature maps project the input data to transformed spaces, where they become linearly separable.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.2: The Kernel Trick</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</guid>
-      <description>&lt;p&gt;In this section, we show how nonlinear SVMs work their magic by introducing nonlinearity efficiently via the kernel trick.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.3: The Polynomial Kernel</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</guid>
-      <description>&lt;p&gt;In this section, we introduce the polynomial kernel in the context of SVMs and demonstrate how different polynomial degrees affect decision boundaries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</guid>
-      <description>&lt;p&gt;In this section, we introduce important theoretical background on nonlinear SVMs that essentially allows us to express them as a weighted sum of basis functions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.5: The Gaussian RBF Kernel</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</guid>
-      <description>&lt;p&gt;In this section, we introduce the popular Gaussian RBF kernel and discuss its properties.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 18.6: SVM Model Selection</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</guid>
-      <description>&lt;p&gt;In this section, we discuss the importance of SVM hyperparameters for adequate solutions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 19.1: The Bayesian Linear Model</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</guid>
-      <description>&lt;p&gt;We begin by reviewing the Bayesian formulation of a linear model and show that instead of point estimates for parameters and predictions, we obtain an entire posterior and predictive distribution.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 19.2: Gaussian Processes</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</guid>
-      <description>&lt;p&gt;In this section, we introduce the basic idea behind Gaussian processes. We move from weight to function space and build some intuition on distributions over functions, discuss GPs&#39; marginalization property, derive GP priors, and interpret GPs as indexed families.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 19.3: Covariance Functions for GPs</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</guid>
-      <description>&lt;p&gt;In this section, we discuss the role of covariance functions in GPs and introduce the most common choices.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 19.4: Gaussian Process Prediction</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</guid>
-      <description>&lt;p&gt;In this section, we show how to derive the posterior process and discuss further properties of GPs as well as noisy GPs.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 19.5: Gaussian Process Training</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</guid>
-      <description>&lt;p&gt;In this section, we show how Gaussian processes are actually trained using maximum likelihood estimation and exploiting the fact that we can learn covariance functions&#39; hyperparameters on the fly.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 2.1: Loss Functions for Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -634,24 +103,6 @@
       
       <guid>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-03-polynomials/</guid>
       <description>&lt;p&gt;This section introduces polynomials to obtain more flexible models for the regression task. We explain the connection to the basic linear model and discuss the problem of overfitting.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 20.1: Introduction to Boosting / AdaBoost</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</guid>
-      <description>&lt;p&gt;In this section, we introduce the pioneering AdaBoost algorithm.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 20.2: Boosting Concept</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</guid>
-      <description>&lt;p&gt;In this section, we discuss the general boosting principle: performing gradient descent in function space by repeatedly fitting new base learner components to the current pseudo-residuals.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -958,6 +409,555 @@
       
       <guid>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-03-nestedresampling/</guid>
       <description>&lt;p&gt;In this section, we will explain why and how nested resampling is done.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.1: Intro to mlr3</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</guid>
+      <description>&lt;p&gt;In this section, we introduce the basic concepts of the R package mlr3.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.2: Resampling with mlr3</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</guid>
+      <description>&lt;p&gt;mlr3 supports various forms of resampling, which we will demonstrate in this section.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.3: Tuning with mlr3</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</guid>
+      <description>&lt;p&gt;We can easily conduct hyperparameter tuning with mrl3&amp;rsquo;s modular ecosystem, defining custom search spaces and suitable tuning algorithms.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 10.4: Pipelines with mlr3</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</guid>
+      <description>&lt;p&gt;Pipelines provide an important tool to package all relevant machine learning steps into a single object that can be treated just like any other learner, ensuring adherence to the train-test split principle even in the face of complex analyses.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.01: Risk Minimizers</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-01-risk-minimizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-01-risk-minimizer/</guid>
+      <description>&lt;p&gt;We introduce important concepts in theoretical risk minimization: risk minimizer, Bayes risk, Bayes regret, consistent learners and the optimal constant model.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.2: Pseudo-Residuals</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</guid>
+      <description>&lt;p&gt;We introduce the concept of pseudo-residuals, i.e., loss residuals in function space, and discuss their relation to gradient descent.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.3: L2 Loss</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</guid>
+      <description>&lt;p&gt;In this section, we revisit \(L2\) loss and derive its risk minimizer &amp;ndash; the conditional mean &amp;ndash; and optimal constant model &amp;ndash; the empirical mean of observed target values.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.4: L1 Loss</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</guid>
+      <description>&lt;p&gt;In this section, we revisit \(L1\) loss and derive its risk minimizer &amp;ndash; the conditional median &amp;ndash; and optimal constant model &amp;ndash; the empirical median of observed target values.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.5: Advanced Regression Losses</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</guid>
+      <description>&lt;p&gt;In this section, we introduce and discuss the following advanced regression losses: Huber, log-cosh, Cauchy, log-barrier, epsilon-insensitive, and quantile loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.6: 0-1 Loss</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</guid>
+      <description>&lt;p&gt;In this section, we revisit the 0-1 loss and derive its risk minimizer .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.7: Bernoulli Loss</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</guid>
+      <description>&lt;p&gt;We study the Bernoulli loss and derive its risk minimizer and optimal constant model. We further discuss the connection between Bernoulli loss minimization and tree splitting according to the entropy criterion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.8: Brier Score</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</guid>
+      <description>&lt;p&gt;In this section, we introduce the Brier score and derive its risk minimizer and optimal constant model. We further discuss the connection between Brier score minimization and tree splitting according to the Gini index.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.9: Advanced Classification Losses</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</guid>
+      <description>&lt;p&gt;In this section, we introduce and discuss the following advanced classification losses: (squared) hinge loss, \(L2\) loss on scores, exponential loss, and AUC loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.10: Maximum Likelihood Estimation vs Empirical Risk Minimization I</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-10-max-likelihood-l2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-10-max-likelihood-l2/</guid>
+      <description>&lt;p&gt;We discuss the connection between maximum likelihood estimation and risk minimization, then demonstrate the correspondence between a Gaussian error distribution and \(L2\) loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 11.11: Maximum Likelihood Estimation vs Empirical Risk Minimization II</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-11-max-likelihood-other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-11-max-likelihood-other/</guid>
+      <description>&lt;p&gt;We discuss the connection between maximum likelihood estimation and risk minimization for further losses (\(L1\) loss, Bernoulli loss).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.1: Multiclass Classification and Losses</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</guid>
+      <description>&lt;p&gt;In this section, we introduce the basic concepts in multiclass (MC) classification and important MC losses: MC 0-1 loss, MC brier score, and MC logarithmic loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.2: Softmax Regression</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</guid>
+      <description>&lt;p&gt;In this section, we introduce softmax regression as a generalization of logistic regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.3: One-vs-One and One-vs-Rest</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</guid>
+      <description>&lt;p&gt;It is sometimes advisable to address a multiclass problem as a set of binary ones. We discuss two ways to reduce a multiclass problem to multiple binary classification problems: one-vs-one and one-vs-rest.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 12.4: Designing Codebooks and ECOC</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</guid>
+      <description>&lt;p&gt;In this section, we introduce codebooks as a general concept for multiclass-to- binary reduction.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.1: Entropy</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</guid>
+      <description>&lt;p&gt;We introduce entropy, which expresses the expected information for discrete random variables, as a central concept in information theory.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.2: Differential Entropy</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</guid>
+      <description>&lt;p&gt;In this section, we extend the definition of entropy to the continuous case.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.3: Kullback-Leibler Divergence</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</guid>
+      <description>&lt;p&gt;The Kullback-Leibler divergence (KL) is an important quantity for measuring the difference between two probability distributions. We discuss different intuitions for KL and relate it to risk minimization and likelihood ratios.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.4: Entropy and Optimal Code Length</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</guid>
+      <description>&lt;p&gt;In this section, we introduce source coding and discuss how entropy can be understood as optimal code length.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.5: Cross-Entropy, KL and Source Coding</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</guid>
+      <description>&lt;p&gt;We introduce cross-entropy as a further information-theoretic concept and discuss the connection between entropy, cross-entropy, and Kullback-Leibler divergence.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.6: Information Theory for Machine Learning</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</guid>
+      <description>&lt;p&gt;In this section, we discuss how information-theoretic concepts are used in machine learning and demonstrate the equivalence of KL minimization and maximum likelihood maximization, as well as how (cross-)entropy can be used as a loss function.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 13.7: Joint Entropy and Mutual Information</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</guid>
+      <description>&lt;p&gt;Information theory also provides means of quantifying relations between two random variables that extend the concept of (linear) correlation. We discuss joint entropy, conditional entropy, and mutual information in this context.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 14.1: Curse of Dimensionality</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</guid>
+      <description>&lt;p&gt;In this section, we discuss why our geometric intuition fails in high-dimensional spaces and introduce the phenomenon of the curse of dimensionality.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 14.2: Curse of Dimensionality - Examples</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</guid>
+      <description>&lt;p&gt;In this section, we show examples of how \(k\)-NN and the linear model suffer from the the curse of dimensionality.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 15.1: Examples of Hypothesis Spaces</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</guid>
+      <description>&lt;p&gt;In this section, we show examples for formal definitions of hypothesis spaces.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 15.2: Capacity and Overfitting</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</guid>
+      <description>&lt;p&gt;In this section, we discuss how the capacity of a hypothesis influences the overfitting behavior of a learner.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 15.3: PAC Learning and VC Dimension</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</guid>
+      <description>&lt;p&gt;The &amp;ldquo;no free lunch&amp;rdquo; theorem implies that we cannot construct a universally optimal learner. More precisely, only finite hypothesis spaces, as measured by Vapnik-Chervonenkis (VC) dimension, are agnostic probably-approximately-correct (PAC) learnable, which we will discuss in this section.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 15.4: Bias-Variance Decomposition</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</guid>
+      <description>&lt;p&gt;In this section, we derive and discuss the classic bias-variance decomposition of the generalization error of an inducer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.1: Introduction to Regularization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</guid>
+      <description>&lt;p&gt;In this section, we revisit overfitting and introduce regularization as a remedy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.2: Lasso and Ridge Regression</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</guid>
+      <description>&lt;p&gt;We introduce Lasso and Ridge regression as the key approaches to regularizing linear models.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.3: Lasso vs Ridge Regression</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</guid>
+      <description>&lt;p&gt;This section provides a detailed comparison between Lasso and Ridge regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.4: Elastic Net and Regularization for GLMs</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</guid>
+      <description>&lt;p&gt;In this section, we introduce the elastic net as a combination of Ridge and Lasso regression and discuss regularization for logistic regression.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.5: Regularization for Underdetermined Problems</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</guid>
+      <description>&lt;p&gt;In this section, we discuss how regularization can make ill-posed problems well-defined.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.6: L0 Regularization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</guid>
+      <description>&lt;p&gt;In this section, we introduce \(LQ\) regularization and particularly discuss \(L0\) regularization as an important special case besides \(L1\) and \(L2\) that penalizes the number of non-zero parameters.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.7: Regularization in NonLinear Models and Bayesian Priors</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</guid>
+      <description>&lt;p&gt;In this section, we motivate regularization from a Bayesian perspective, showing how different penalty terms correspond to different Bayesian priors.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.8: Geometric Analysis of L2 Regularization and Weight Decay</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</guid>
+      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L2\) regularization, showing how parameters are shrunk according to the eigenvalues of the Hessian of empirical risk, and discuss its correspondence to weight decay.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.9: Geometric Analysis of L1 Regularization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</guid>
+      <description>&lt;p&gt;In this section, we provide a geometric understanding of \(L1\) regularization and show that it encourages sparsity in the parameter vector.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.1: Linear Hard Margin SVM</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</guid>
+      <description>&lt;p&gt;Hard margin SVMs seek perfect data separation. We introduce the linear hard margin SVM problem as a quadratic optimization program.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.2: Hard Margin SVM Dual</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</guid>
+      <description>&lt;p&gt;In this section, we derive the dual variant of the linear hard-margin SVM problem, a computationally favorable formulation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.3: Soft Margin SVM</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</guid>
+      <description>&lt;p&gt;Hard margin SVMs are often not applicable to practical questions because they fail when the data are not linearly separable. Moreover, for the sake of generalization, we will often accept some violations to keep the margin large enough for robust class separation. Therefore, we introduce the soft margin linear SVM.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</guid>
+      <description>&lt;p&gt;In this section, we show how the SVM problem can be understood as an instance of empirical risk minimization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 17.5: SVM Training</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</guid>
+      <description>&lt;p&gt;The linear SVM problem is challenging due to its non-differentiability. In this section, we present methods of optimization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.1: Feature Generation for Nonlinear Separation</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</guid>
+      <description>&lt;p&gt;We show how nonlinear feature maps project the input data to transformed spaces, where they become linearly separable.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.2: The Kernel Trick</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</guid>
+      <description>&lt;p&gt;In this section, we show how nonlinear SVMs work their magic by introducing nonlinearity efficiently via the kernel trick.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.3: The Polynomial Kernel</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</guid>
+      <description>&lt;p&gt;In this section, we introduce the polynomial kernel in the context of SVMs and demonstrate how different polynomial degrees affect decision boundaries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</guid>
+      <description>&lt;p&gt;In this section, we introduce important theoretical background on nonlinear SVMs that essentially allows us to express them as a weighted sum of basis functions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.5: The Gaussian RBF Kernel</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</guid>
+      <description>&lt;p&gt;In this section, we introduce the popular Gaussian RBF kernel and discuss its properties.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 18.6: SVM Model Selection</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</guid>
+      <description>&lt;p&gt;In this section, we discuss the importance of SVM hyperparameters for adequate solutions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 19.1: The Bayesian Linear Model</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</guid>
+      <description>&lt;p&gt;We begin by reviewing the Bayesian formulation of a linear model and show that instead of point estimates for parameters and predictions, we obtain an entire posterior and predictive distribution.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 19.2: Gaussian Processes</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</guid>
+      <description>&lt;p&gt;In this section, we introduce the basic idea behind Gaussian processes. We move from weight to function space and build some intuition on distributions over functions, discuss GPs&#39; marginalization property, derive GP priors, and interpret GPs as indexed families.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 19.3: Covariance Functions for GPs</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</guid>
+      <description>&lt;p&gt;In this section, we discuss the role of covariance functions in GPs and introduce the most common choices.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 19.4: Gaussian Process Prediction</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</guid>
+      <description>&lt;p&gt;In this section, we show how to derive the posterior process and discuss further properties of GPs as well as noisy GPs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 19.5: Gaussian Process Training</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</guid>
+      <description>&lt;p&gt;In this section, we show how Gaussian processes are actually trained using maximum likelihood estimation and exploiting the fact that we can learn covariance functions&#39; hyperparameters on the fly.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 20.1: Introduction to Boosting / AdaBoost</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</guid>
+      <description>&lt;p&gt;In this section, we introduce the pioneering AdaBoost algorithm.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 20.2: Boosting Concept</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</guid>
+      <description>&lt;p&gt;In this section, we discuss the general boosting principle: performing gradient descent in function space by repeatedly fitting new base learner components to the current pseudo-residuals.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 16.10: Early Stopping</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</guid>
+      <description>&lt;p&gt;In this section, we introduce early stopping and show how it can act as a regularizer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://slds-lmu.github.io/i2ml/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/team/</guid>
+      <description>Team  Bernd Bischl wrote the initial version of most of the course material, and teaches various master courses in ML and DL at the LMU for stats and data science. Ludwig Bothmann joined the team in summer 2020 and is in charge of the classes held in winter 2021/22 at LMU Munich. Fabian Scheipl joined the team in fall 2018 and contributed to the slides, videos and code demos. Heidi Seibold joined the team in fall 2019 and was in charge of the classes held in spring 2020 at LMU Munich and University of Bielefeld.</description>
     </item>
     
     <item>
