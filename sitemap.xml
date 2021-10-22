@@ -219,6 +219,24 @@
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/categories/</loc>
   </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/</loc>
+  </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/</loc>
@@ -239,25 +257,7 @@
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/</loc>
   </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/</loc>
-  </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/07_forests/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/08_tuning/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/</loc>
   </url><url>
