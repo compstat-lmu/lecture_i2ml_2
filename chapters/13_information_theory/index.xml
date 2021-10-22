@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/13_information_theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 13.1: Entropy</title>
+      <title>Chapter 13.01: Entropy</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.2: Differential Entropy</title>
+      <title>Chapter 13.02: Differential Entropy</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.3: Kullback-Leibler Divergence</title>
+      <title>Chapter 13.03: Kullback-Leibler Divergence</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.4: Entropy and Optimal Code Length</title>
+      <title>Chapter 13.04: Entropy and Optimal Code Length</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.5: Cross-Entropy, KL and Source Coding</title>
+      <title>Chapter 13.05: Cross-Entropy, KL and Source Coding</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.6: Information Theory for Machine Learning</title>
+      <title>Chapter 13.06: Information Theory for Machine Learning</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.7: Joint Entropy and Mutual Information</title>
+      <title>Chapter 13.07: Joint Entropy and Mutual Information</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 17.1: Linear Hard Margin SVM</title>
+      <title>Chapter 17.01: Linear Hard Margin SVM</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.2: Hard Margin SVM Dual</title>
+      <title>Chapter 17.02: Hard Margin SVM Dual</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.3: Soft Margin SVM</title>
+      <title>Chapter 17.03: Soft Margin SVM</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
+      <title>Chapter 17.04: SVMs and Empirical Risk Minimization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.5: SVM Training</title>
+      <title>Chapter 17.05: SVM Training</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

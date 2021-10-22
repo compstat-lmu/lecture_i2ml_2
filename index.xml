@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 1.1: What is ML?</title>
+      <title>Chapter 01.01: What is ML?</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-01-basics-whatisml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.2: Data</title>
+      <title>Chapter 01.02: Data</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-02-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.3: Tasks</title>
+      <title>Chapter 01.03: Tasks</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-03-tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.4: Models and Parameters</title>
+      <title>Chapter 01.04: Models and Parameters</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-04-models-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.5: Learner</title>
+      <title>Chapter 01.05: Learner</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-05-learner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.6: Losses and Risk Minimization</title>
+      <title>Chapter 01.06: Losses and Risk Minimization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-06-riskminimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.7: Optimization</title>
+      <title>Chapter 01.07: Optimization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-07-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -70,7 +70,7 @@
     </item>
     
     <item>
-      <title>Chapter 1.8: Components of a Learner</title>
+      <title>Chapter 01.08: Components of a Learner</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/01_ml_basics/01-08-learnercomponents-hro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -79,7 +79,7 @@
     </item>
     
     <item>
-      <title>Chapter 2.1: Loss Functions for Regression</title>
+      <title>Chapter 02.01: Loss Functions for Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -88,7 +88,7 @@
     </item>
     
     <item>
-      <title>Chapter 2.2: Linear Regression Models</title>
+      <title>Chapter 02.02: Linear Regression Models</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-02-linearmodel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -97,7 +97,7 @@
     </item>
     
     <item>
-      <title>Chapter 2.3: Polynomial Regression Models</title>
+      <title>Chapter 02.03: Polynomial Regression Models</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/02_supervised_regression/02-03-polynomials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -106,7 +106,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.1: Classification Tasks</title>
+      <title>Chapter 03.01: Classification Tasks</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-01-tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -115,7 +115,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.2: Basic Definitions</title>
+      <title>Chapter 03.02: Basic Definitions</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-02-classification-basicdefs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -124,7 +124,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.3: Linear Classifiers</title>
+      <title>Chapter 03.03: Linear Classifiers</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-03-classification-linear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -133,7 +133,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.4: Logistic Regression</title>
+      <title>Chapter 03.04: Logistic Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-04-classification-logistic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -142,7 +142,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.5: Discriminant Analysis</title>
+      <title>Chapter 03.05: Discriminant Analysis</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-05-classification-discranalysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -151,7 +151,7 @@
     </item>
     
     <item>
-      <title>Chapter 3.6: Naive Bayes</title>
+      <title>Chapter 03.06: Naive Bayes</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-06-classification-naivebayes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -160,7 +160,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.1: Introduction</title>
+      <title>Chapter 04.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -169,7 +169,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.2: Measures Regression</title>
+      <title>Chapter 04.02: Measures Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-02-measures-regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -178,7 +178,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.3: Measures Classification</title>
+      <title>Chapter 04.03: Measures Classification</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-measures-classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -187,7 +187,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.4: Measures Classification ROC</title>
+      <title>Chapter 04.04: Measures Classification ROC</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-measures-classification-roc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -196,7 +196,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.5: Measures Classification ROC Visualization</title>
+      <title>Chapter 04.05: Measures Classification ROC Visualization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-measures-classification-roc-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -205,7 +205,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.6: Overfitting</title>
+      <title>Chapter 04.06: Overfitting</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-overfitting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -214,7 +214,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.7: Training Error</title>
+      <title>Chapter 04.07: Training Error</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-train/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -223,7 +223,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.8: Test Error</title>
+      <title>Chapter 04.08: Test Error</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -232,7 +232,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.9: Resampling</title>
+      <title>Chapter 04.09: Resampling</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-resampling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -241,7 +241,7 @@
     </item>
     
     <item>
-      <title>Chapter 5.1: k-Nearest Neighbors (k-NN)</title>
+      <title>Chapter 05.01: k-Nearest Neighbors (k-NN)</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -250,7 +250,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.1: Introduction</title>
+      <title>Chapter 06.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -259,7 +259,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.2: Splitting Criteria</title>
+      <title>Chapter 06.02: Splitting Criteria</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-02-splitcriteria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -268,7 +268,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.3: Growing a Tree</title>
+      <title>Chapter 06.03: Growing a Tree</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-03-treegrowing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -277,7 +277,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.4: Computational Aspects of Finding Splits</title>
+      <title>Chapter 06.04: Computational Aspects of Finding Splits</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-04-splitcomputation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -286,7 +286,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.5: Stopping Criteria &amp; Pruning</title>
+      <title>Chapter 06.05: Stopping Criteria &amp; Pruning</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-05-stoppingpruning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -295,7 +295,7 @@
     </item>
     
     <item>
-      <title>Chapter 6.6: Discussion</title>
+      <title>Chapter 06.06: Discussion</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-06-discussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -304,7 +304,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.1: Bagging Ensembles</title>
+      <title>Chapter 07.01: Bagging Ensembles</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-01-bagging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -313,7 +313,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.2: Introduction</title>
+      <title>Chapter 07.02: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-02-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -322,7 +322,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.3: Benchmarking Trees, Forests, and Bagging k-NN</title>
+      <title>Chapter 07.03: Benchmarking Trees, Forests, and Bagging k-NN</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-03-benchmark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -331,7 +331,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.4: Feature Importance</title>
+      <title>Chapter 07.04: Feature Importance</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-04-featureimportance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -340,7 +340,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.5: Proximities</title>
+      <title>Chapter 07.05: Proximities</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-05-proximities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -349,7 +349,7 @@
     </item>
     
     <item>
-      <title>Chapter 7.6: Discussion</title>
+      <title>Chapter 07.06: Discussion</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/07_forests/07-06-discussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -358,7 +358,7 @@
     </item>
     
     <item>
-      <title>Chapter 8.1: Introduction</title>
+      <title>Chapter 08.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -367,7 +367,7 @@
     </item>
     
     <item>
-      <title>Chapter 8.2: Problem Definition</title>
+      <title>Chapter 08.02: Problem Definition</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-02-tuning-tuningproblem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -376,7 +376,7 @@
     </item>
     
     <item>
-      <title>Chapter 8.3: Basic Techniques</title>
+      <title>Chapter 08.03: Basic Techniques</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/08_tuning/08-03-basicalgos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -385,7 +385,7 @@
     </item>
     
     <item>
-      <title>Chapter 9.1: Motivation</title>
+      <title>Chapter 09.01: Motivation</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-01-nestedintro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -394,7 +394,7 @@
     </item>
     
     <item>
-      <title>Chapter 9.2: Training - Validation - Testing</title>
+      <title>Chapter 09.02: Training - Validation - Testing</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-02-trainvalidtest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -403,7 +403,7 @@
     </item>
     
     <item>
-      <title>Chapter 9.3: Nested Resampling</title>
+      <title>Chapter 09.03: Nested Resampling</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/09_nested_resampling/09-03-nestedresampling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -412,7 +412,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.1: Intro to mlr3</title>
+      <title>Chapter 10.01: Intro to mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -421,7 +421,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.2: Resampling with mlr3</title>
+      <title>Chapter 10.02: Resampling with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -430,7 +430,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.3: Tuning with mlr3</title>
+      <title>Chapter 10.03: Tuning with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -439,7 +439,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.4: Pipelines with mlr3</title>
+      <title>Chapter 10.04: Pipelines with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -457,7 +457,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.2: Pseudo-Residuals</title>
+      <title>Chapter 11.02: Pseudo-Residuals</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -466,7 +466,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.3: L2 Loss</title>
+      <title>Chapter 11.03: L2 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -475,7 +475,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.4: L1 Loss</title>
+      <title>Chapter 11.04: L1 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -484,7 +484,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.5: Advanced Regression Losses</title>
+      <title>Chapter 11.05: Advanced Regression Losses</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -493,7 +493,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.6: 0-1 Loss</title>
+      <title>Chapter 11.06: 0-1 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -502,7 +502,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.7: Bernoulli Loss</title>
+      <title>Chapter 11.07: Bernoulli Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -511,7 +511,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.8: Brier Score</title>
+      <title>Chapter 11.08: Brier Score</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -520,7 +520,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.9: Advanced Classification Losses</title>
+      <title>Chapter 11.09: Advanced Classification Losses</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -547,7 +547,7 @@
     </item>
     
     <item>
-      <title>Chapter 12.1: Multiclass Classification and Losses</title>
+      <title>Chapter 12.01: Multiclass Classification and Losses</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-01-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -556,7 +556,7 @@
     </item>
     
     <item>
-      <title>Chapter 12.2: Softmax Regression</title>
+      <title>Chapter 12.02: Softmax Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-02-softmax-regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -565,7 +565,7 @@
     </item>
     
     <item>
-      <title>Chapter 12.3: One-vs-One and One-vs-Rest</title>
+      <title>Chapter 12.03: One-vs-One and One-vs-Rest</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-03-binary-reduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -574,7 +574,7 @@
     </item>
     
     <item>
-      <title>Chapter 12.4: Designing Codebooks and ECOC</title>
+      <title>Chapter 12.04: Designing Codebooks and ECOC</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/12_multiclass/12-04-codebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -583,7 +583,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.1: Entropy</title>
+      <title>Chapter 13.01: Entropy</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-01-entropy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -592,7 +592,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.2: Differential Entropy</title>
+      <title>Chapter 13.02: Differential Entropy</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-02-diffent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -601,7 +601,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.3: Kullback-Leibler Divergence</title>
+      <title>Chapter 13.03: Kullback-Leibler Divergence</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-03-kl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -610,7 +610,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.4: Entropy and Optimal Code Length</title>
+      <title>Chapter 13.04: Entropy and Optimal Code Length</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-04-sourcecoding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -619,7 +619,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.5: Cross-Entropy, KL and Source Coding</title>
+      <title>Chapter 13.05: Cross-Entropy, KL and Source Coding</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -628,7 +628,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.6: Information Theory for Machine Learning</title>
+      <title>Chapter 13.06: Information Theory for Machine Learning</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -637,7 +637,7 @@
     </item>
     
     <item>
-      <title>Chapter 13.7: Joint Entropy and Mutual Information</title>
+      <title>Chapter 13.07: Joint Entropy and Mutual Information</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -646,7 +646,7 @@
     </item>
     
     <item>
-      <title>Chapter 14.1: Curse of Dimensionality</title>
+      <title>Chapter 14.01: Curse of Dimensionality</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -655,7 +655,7 @@
     </item>
     
     <item>
-      <title>Chapter 14.2: Curse of Dimensionality - Examples</title>
+      <title>Chapter 14.02: Curse of Dimensionality - Examples</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-02-cod-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -664,7 +664,7 @@
     </item>
     
     <item>
-      <title>Chapter 15.1: Examples of Hypothesis Spaces</title>
+      <title>Chapter 15.01: Examples of Hypothesis Spaces</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-01-hypospaces-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -673,7 +673,7 @@
     </item>
     
     <item>
-      <title>Chapter 15.2: Capacity and Overfitting</title>
+      <title>Chapter 15.02: Capacity and Overfitting</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-02-hypospaces-capacity-overfitting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -682,7 +682,7 @@
     </item>
     
     <item>
-      <title>Chapter 15.3: PAC Learning and VC Dimension</title>
+      <title>Chapter 15.03: PAC Learning and VC Dimension</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-03-complexity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -691,7 +691,7 @@
     </item>
     
     <item>
-      <title>Chapter 15.4: Bias-Variance Decomposition</title>
+      <title>Chapter 15.04: Bias-Variance Decomposition</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/15_hypospaces_capacity/15-04-bias-variance-decomposition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -700,7 +700,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.1: Introduction to Regularization</title>
+      <title>Chapter 16.01: Introduction to Regularization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-01-regu-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -709,7 +709,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.2: Lasso and Ridge Regression</title>
+      <title>Chapter 16.02: Lasso and Ridge Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-02-l1l2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -718,7 +718,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.3: Lasso vs Ridge Regression</title>
+      <title>Chapter 16.03: Lasso vs Ridge Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-03-l1vsl12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -727,7 +727,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.4: Elastic Net and Regularization for GLMs</title>
+      <title>Chapter 16.04: Elastic Net and Regularization for GLMs</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-04-enetlogreg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -736,7 +736,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.5: Regularization for Underdetermined Problems</title>
+      <title>Chapter 16.05: Regularization for Underdetermined Problems</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-05-underdetermined/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -745,7 +745,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.6: L0 Regularization</title>
+      <title>Chapter 16.06: L0 Regularization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-06-l0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -754,7 +754,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.7: Regularization in NonLinear Models and Bayesian Priors</title>
+      <title>Chapter 16.07: Regularization in NonLinear Models and Bayesian Priors</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-07-nonlin-bayes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -763,7 +763,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.8: Geometric Analysis of L2 Regularization and Weight Decay</title>
+      <title>Chapter 16.08: Geometric Analysis of L2 Regularization and Weight Decay</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-08-geom-l2-wdecay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -772,7 +772,7 @@
     </item>
     
     <item>
-      <title>Chapter 16.9: Geometric Analysis of L1 Regularization</title>
+      <title>Chapter 16.09: Geometric Analysis of L1 Regularization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-09-geom-l1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -781,7 +781,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.1: Linear Hard Margin SVM</title>
+      <title>Chapter 17.01: Linear Hard Margin SVM</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-01-hard-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -790,7 +790,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.2: Hard Margin SVM Dual</title>
+      <title>Chapter 17.02: Hard Margin SVM Dual</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-02-hard-margin-dual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -799,7 +799,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.3: Soft Margin SVM</title>
+      <title>Chapter 17.03: Soft Margin SVM</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-03-soft-margin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -808,7 +808,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.4: SVMs and Empirical Risk Minimization</title>
+      <title>Chapter 17.04: SVMs and Empirical Risk Minimization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-04-erm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -817,7 +817,7 @@
     </item>
     
     <item>
-      <title>Chapter 17.5: SVM Training</title>
+      <title>Chapter 17.05: SVM Training</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/17_linear_svm/17-05-optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -826,7 +826,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.1: Feature Generation for Nonlinear Separation</title>
+      <title>Chapter 18.01: Feature Generation for Nonlinear Separation</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -835,7 +835,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.2: The Kernel Trick</title>
+      <title>Chapter 18.02: The Kernel Trick</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -844,7 +844,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.3: The Polynomial Kernel</title>
+      <title>Chapter 18.03: The Polynomial Kernel</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -853,7 +853,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</title>
+      <title>Chapter 18.04: Reproducing Kernel Hilbert Space and Representer Theorem</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -862,7 +862,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.5: The Gaussian RBF Kernel</title>
+      <title>Chapter 18.05: The Gaussian RBF Kernel</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -871,7 +871,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.6: SVM Model Selection</title>
+      <title>Chapter 18.06: SVM Model Selection</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -880,7 +880,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.1: The Bayesian Linear Model</title>
+      <title>Chapter 19.01: The Bayesian Linear Model</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -889,7 +889,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.2: Gaussian Processes</title>
+      <title>Chapter 19.02: Gaussian Processes</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -898,7 +898,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.3: Covariance Functions for GPs</title>
+      <title>Chapter 19.03: Covariance Functions for GPs</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -907,7 +907,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.4: Gaussian Process Prediction</title>
+      <title>Chapter 19.04: Gaussian Process Prediction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -916,7 +916,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.5: Gaussian Process Training</title>
+      <title>Chapter 19.05: Gaussian Process Training</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -925,7 +925,7 @@
     </item>
     
     <item>
-      <title>Chapter 20.1: Introduction to Boosting / AdaBoost</title>
+      <title>Chapter 20.01: Introduction to Boosting / AdaBoost</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -934,7 +934,7 @@
     </item>
     
     <item>
-      <title>Chapter 20.2: Boosting Concept</title>
+      <title>Chapter 20.02: Boosting Concept</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

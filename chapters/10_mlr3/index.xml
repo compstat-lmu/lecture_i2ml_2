@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/10_mlr3/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 10.1: Intro to mlr3</title>
+      <title>Chapter 10.01: Intro to mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.2: Resampling with mlr3</title>
+      <title>Chapter 10.02: Resampling with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-02-resampling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.3: Tuning with mlr3</title>
+      <title>Chapter 10.03: Tuning with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-03-tuning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 10.4: Pipelines with mlr3</title>
+      <title>Chapter 10.04: Pipelines with mlr3</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/10_mlr3/10-04-pipelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.2: Pseudo-Residuals</title>
+      <title>Chapter 11.02: Pseudo-Residuals</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-02-pseudo-residuals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.3: L2 Loss</title>
+      <title>Chapter 11.03: L2 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-03-regression-l2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.4: L1 Loss</title>
+      <title>Chapter 11.04: L1 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-04-regression-l1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.5: Advanced Regression Losses</title>
+      <title>Chapter 11.05: Advanced Regression Losses</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-05-regression-further-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.6: 0-1 Loss</title>
+      <title>Chapter 11.06: 0-1 Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-06-classification-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.7: Bernoulli Loss</title>
+      <title>Chapter 11.07: Bernoulli Loss</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-07-classification-bernoulli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -70,7 +70,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.8: Brier Score</title>
+      <title>Chapter 11.08: Brier Score</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-08-classification-brier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -79,7 +79,7 @@
     </item>
     
     <item>
-      <title>Chapter 11.9: Advanced Classification Losses</title>
+      <title>Chapter 11.09: Advanced Classification Losses</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/11_advriskmin/11-09-classification-further-losses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 4.1: Introduction</title>
+      <title>Chapter 04.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.2: Measures Regression</title>
+      <title>Chapter 04.02: Measures Regression</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-02-measures-regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.3: Measures Classification</title>
+      <title>Chapter 04.03: Measures Classification</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-measures-classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.4: Measures Classification ROC</title>
+      <title>Chapter 04.04: Measures Classification ROC</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-measures-classification-roc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.5: Measures Classification ROC Visualization</title>
+      <title>Chapter 04.05: Measures Classification ROC Visualization</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-measures-classification-roc-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.6: Overfitting</title>
+      <title>Chapter 04.06: Overfitting</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-overfitting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.7: Training Error</title>
+      <title>Chapter 04.07: Training Error</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-train/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -70,7 +70,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.8: Test Error</title>
+      <title>Chapter 04.08: Test Error</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -79,7 +79,7 @@
     </item>
     
     <item>
-      <title>Chapter 4.9: Resampling</title>
+      <title>Chapter 04.09: Resampling</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-resampling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

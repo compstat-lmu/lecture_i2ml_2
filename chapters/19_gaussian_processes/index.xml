@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 19.1: The Bayesian Linear Model</title>
+      <title>Chapter 19.01: The Bayesian Linear Model</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-01-bayes-lm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.2: Gaussian Processes</title>
+      <title>Chapter 19.02: Gaussian Processes</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-02-basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.3: Covariance Functions for GPs</title>
+      <title>Chapter 19.03: Covariance Functions for GPs</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-03-covariance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.4: Gaussian Process Prediction</title>
+      <title>Chapter 19.04: Gaussian Process Prediction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-04-prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 19.5: Gaussian Process Training</title>
+      <title>Chapter 19.05: Gaussian Process Training</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/19_gaussian_processes/19-05-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

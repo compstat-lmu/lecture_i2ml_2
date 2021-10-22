@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 18.1: Feature Generation for Nonlinear Separation</title>
+      <title>Chapter 18.01: Feature Generation for Nonlinear Separation</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-01-featuregen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -16,7 +16,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.2: The Kernel Trick</title>
+      <title>Chapter 18.02: The Kernel Trick</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-02-kernel-trick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -25,7 +25,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.3: The Polynomial Kernel</title>
+      <title>Chapter 18.03: The Polynomial Kernel</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-03-kernel-poly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.4: Reproducing Kernel Hilbert Space and Representer Theorem</title>
+      <title>Chapter 18.04: Reproducing Kernel Hilbert Space and Representer Theorem</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-04-rkhs-repr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.5: The Gaussian RBF Kernel</title>
+      <title>Chapter 18.05: The Gaussian RBF Kernel</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-05-kernel-rbf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -52,7 +52,7 @@
     </item>
     
     <item>
-      <title>Chapter 18.6: SVM Model Selection</title>
+      <title>Chapter 18.06: SVM Model Selection</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/18_nonlinear_svm/18-06-model-sel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
