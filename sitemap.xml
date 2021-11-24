@@ -54,6 +54,10 @@
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-measures-classification-roc/</loc>
   </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</loc>
+  </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</loc>
+  </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-01-intro/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-02-splitcriteria/</loc>
@@ -208,13 +212,9 @@
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</loc>
   </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</loc>
-  </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-11-auc_extensions/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-12-beyond_auc/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/16_regularization/16-10-early-stopping/</loc>
   </url><url>

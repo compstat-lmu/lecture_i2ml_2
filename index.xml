@@ -241,6 +241,24 @@
     </item>
     
     <item>
+      <title>Chapter 04.10: Measures Classification ROC Visualization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</guid>
+      <description>&lt;p&gt;In this section, we explain the ROC curve and how to calculate it. In addition, we will present AUC and partial AUC as global performance measures.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 05.01: k-Nearest Neighbors (k-NN)</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</guid>
+      <description>&lt;p&gt;We demonstrate that distances in feature space are crucial in \(k\)-NN regression / classification and show how we can form predictions by averaging / majority vote. In this, \(k\)-NN is a very local model and works without distributional assumptions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 06.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/06_trees/06-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -934,15 +952,6 @@
     </item>
     
     <item>
-      <title>Chapter 04.10: Measures Classification ROC Visualization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</guid>
-      <description>&lt;p&gt;In this section, we explain the ROC curve and how to calculate it. In addition, we will present AUC and partial AUC as global performance measures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 04.11: AUC Extensions</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-11-auc_extensions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -958,15 +967,6 @@
       
       <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-12-beyond_auc/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Chapter 05.01: k-Nearest Neighbors (k-NN)</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/</guid>
-      <description>&lt;p&gt;We demonstrate that distances in feature space are crucial in \(k\)-NN regression / classification and show how we can form predictions by averaging / majority vote. In this, \(k\)-NN is a very local model and works without distributional assumptions.&lt;/p&gt;</description>
     </item>
     
     <item>
