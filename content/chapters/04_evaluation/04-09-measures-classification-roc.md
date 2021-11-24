@@ -8,7 +8,7 @@ From the confusion matrix we can calculate a variety of ROC metrics. Among other
 
 ### Lecture video
 
-{{< video id="BH4oCliBzZI" >}}
+{{< video id="fzuk7glzpC0" >}}
 
 ### Lecture slides
 

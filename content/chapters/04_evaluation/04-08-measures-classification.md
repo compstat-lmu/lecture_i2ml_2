@@ -8,7 +8,7 @@ Analogous to regression, we consider essential performance measures for classifi
 
 ### Lecture video
 
-{{< video id="bHwUwrbCHEU" >}}
+{{< video id="K8rUkpq6IYg" >}}
 
 ### Lecture slides
 

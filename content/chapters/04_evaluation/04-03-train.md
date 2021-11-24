@@ -8,7 +8,7 @@ There are two types of errors: training errors and test errors. The focus of thi
 
 ### Lecture video
 
-{{< video id="dpZLGIf97m0" >}}
+{{< video id="XskndmMybfM" >}}
 
 ### Lecture slides
 
