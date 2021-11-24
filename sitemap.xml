@@ -146,6 +146,8 @@
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-05-cross-entropy-kld/</loc>
   </url><url>
+    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</loc>
+  </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/14_cod/14-01-cod/</loc>
@@ -215,8 +217,6 @@
     <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-01-intro-adaboost/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</loc>
-  </url><url>
-    <loc>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</loc>
   </url><url>
     <loc>https://slds-lmu.github.io/i2ml/team/</loc>
     <priority>0</priority>

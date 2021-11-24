@@ -655,6 +655,15 @@
     </item>
     
     <item>
+      <title>Chapter 13.06: Information Theory for Machine Learning</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</guid>
+      <description>&lt;p&gt;In this section, we discuss how information-theoretic concepts are used in machine learning and demonstrate the equivalence of KL minimization and maximum likelihood maximization, as well as how (cross-)entropy can be used as a loss function.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 13.07: Joint Entropy and Mutual Information</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-07-mutual-info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -967,15 +976,6 @@
       
       <guid>https://slds-lmu.github.io/i2ml/chapters/20_boosting/20-02-gradient-boosting-concept/</guid>
       <description>&lt;p&gt;In this section, we discuss the general boosting principle: performing gradient descent in function space by repeatedly fitting new base learner components to the current pseudo-residuals.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 13.06: Information Theory for Machine Learning</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://slds-lmu.github.io/i2ml/chapters/13_information_theory/13-06-ml/</guid>
-      <description>&lt;p&gt;In this section, we discuss how information-theoretic concepts are used in machine learning and demonstrate the equivalence of KL minimization and maximum likelihood maximization, as well as how (cross-)entropy can be used as a loss function.&lt;/p&gt;</description>
     </item>
     
     <item>
