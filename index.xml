@@ -160,6 +160,15 @@
     </item>
     
     <item>
+      <title>Chapter 04.01: Generalization Error</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-generalization-error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-generalization-error/</guid>
+      <description>&lt;p&gt;It is a crucial part of machine learning to evaluate the performance of a learner. We will explain the concept of generalization error and the difference between inner and outer loss.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Chapter 04.01: Introduction</title>
       <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -178,56 +187,92 @@
     </item>
     
     <item>
-      <title>Chapter 04.03: Measures Classification</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-measures-classification/</link>
+      <title>Chapter 04.06: Resampling 1</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-resampling-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-measures-classification/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-resampling-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 04.07: Resampling 2</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-resampling-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-resampling-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 04.08: Measures Classification</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-measures-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-measures-classification/</guid>
       <description>&lt;p&gt;Analogous to regression, we consider essential performance measures for classification. As a classifier predicts either class labels or scores/probabilities, its performance can be evaluated based on these two notions. We show some performance measures for classification, including misclassification error rate (MCE), accuracy (ACC) and Brier score (BS). In addition, we will see confusion matrices and learn about costs.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter 04.04: Measures Classification ROC</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-measures-classification-roc/</link>
+      <title>Chapter 04.11: AUC Extensions</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-11-auc_extensions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-measures-classification-roc/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-11-auc_extensions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 04.11: AUC Extensions</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-12-beyond_auc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-12-beyond_auc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 04.09: Measures Classification ROC</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-measures-classification-roc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-09-measures-classification-roc/</guid>
       <description>&lt;p&gt;From the confusion matrix we can calculate a variety of ROC metrics. Among others, we will explain true positive rate, negative predictive value and the $F1$ measure.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter 04.05: Measures Classification ROC Visualization</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-measures-classification-roc-space/</link>
+      <title>Chapter 04.10: Measures Classification ROC Visualization</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-measures-classification-roc-space/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-10-measures-classification-roc-space/</guid>
       <description>&lt;p&gt;In this section, we explain the ROC curve and how to calculate it. In addition, we will present AUC and partial AUC as global performance measures.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter 04.06: Overfitting</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-overfitting/</link>
+      <title>Chapter 04.05: Overfitting</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-overfitting/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting/</guid>
       <description>&lt;p&gt;When a machine learning model performs well on training data but does not generalize on the test data, we speak of overfitting. We will show you examples of this behavior and how to diagnose overfitting.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter 04.07: Training Error</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-train/</link>
+      <title>Chapter 04.03: Training Error</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-train/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-train/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-03-train/</guid>
       <description>&lt;p&gt;There are two types of errors: training errors and test errors. The focus of this section is on the training error and related difficulties.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Chapter 04.08: Test Error</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-test/</link>
+      <title>Chapter 04.04: Test Error</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-08-test/</guid>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-04-test/</guid>
       <description>&lt;p&gt;While we can infer some information about the learning process from training errors (e.g., the state of iterative optimization), we are truly interested in generalization ability, and thus in the test error on previously unseen data.&lt;/p&gt;</description>
     </item>
     

@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/i2ml/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 04.02: Measures Regression</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 04.01: Generalization Error</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/i2ml/apple-touch-icon.png">
@@ -46,11 +46,11 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 04.02: Measures Regression</h1>
-<p>In this section we familiarize ourselves with essential performance measures for regression. In particular, mean squared error (MSE), mean absolute error (MAE), and a straightforward generalization of $R^2$ are discussed.</p>
+<h1>Chapter 04.01: Generalization Error</h1>
+<p>It is a crucial part of machine learning to evaluate the performance of a learner. We will explain the concept of generalization error and the difference between inner and outer loss.</p>
 <h3 id="lecture-video">Lecture video</h3>
 <div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/FUHs6hu88MI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/gkQ6jXeIEzU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <h3 id="lecture-slides">Lecture slides</h3>
@@ -62,16 +62,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_evaluation_measures_regression_pdf">
-    <button class="btn btn-primary" id="prev_slides_evaluation_measures_regression_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_evaluation_generr_pdf">
+    <button class="btn btn-primary" id="prev_slides_evaluation_generr_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_evaluation_measures_regression_pdf"></span> / <span id="page_count_slides_evaluation_measures_regression_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_evaluation_generr_pdf"></span> / <span id="page_count_slides_evaluation_generr_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_evaluation_measures_regression_pdf">Next</button>
-    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-evaluation-measures-regression.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_evaluation_measures_regression_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_evaluation_generr_pdf">Next</button>
+    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-evaluation-generr.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_evaluation_generr_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_evaluation_measures_regression_pdf" class="ar43">
-    <canvas class="pdf-canvas" id="the-canvas_slides_evaluation_measures_regression_pdf"></canvas>
+<div id="embed-pdf-container_slides_evaluation_generr_pdf" class="ar43">
+    <canvas class="pdf-canvas" id="the-canvas_slides_evaluation_generr_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +79,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-evaluation-measures-regression.pdf';
+var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-evaluation-generr.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +94,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_evaluation_measures_regression_pdf = document.getElementById('the-canvas_slides_evaluation_measures_regression_pdf'),
-    ctx = canvas_slides_evaluation_measures_regression_pdf.getContext('2d');
+    canvas_slides_evaluation_generr_pdf = document.getElementById('the-canvas_slides_evaluation_generr_pdf'),
+    ctx = canvas_slides_evaluation_generr_pdf.getContext('2d');
 
 
 
@@ -104,8 +104,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_evaluation_measures_regression_pdf.height = viewport.height;
-    canvas_slides_evaluation_measures_regression_pdf.width = viewport.width;
+    canvas_slides_evaluation_generr_pdf.height = viewport.height;
+    canvas_slides_evaluation_generr_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +126,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_evaluation_measures_regression_pdf').textContent = num;
+  document.getElementById('page_num_slides_evaluation_generr_pdf').textContent = num;
 }
 
 
@@ -142,7 +142,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_evaluation_measures_regression_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_evaluation_generr_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +154,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_evaluation_measures_regression_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_evaluation_generr_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +165,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_evaluation_measures_regression_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_evaluation_generr_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_evaluation_measures_regression_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_evaluation_generr_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -192,10 +192,9 @@ shuffle_questions: false
 
 ## Which statements are true? 
 
-- [x] The MSE is used in the conventional linear model to find the best parameter estimates.
-- [x] On test data, $R^2$ can be smaller than 0 for linear models.
-- [x] The MAE is equivalent to $L1$ loss.
-- [ ] The MSE is equivalent to $L1$ loss.
+- [x] We want to know how accurately a fitted model will predict target variable values for new, previously unseen data.
+- [ ] Outer loss and inner loss are the same thing.
+- [x] The data-generating process is the true underlying phenomenon creating the data.
 
 
 </div>
@@ -206,10 +205,10 @@ shuffle_questions: false
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/">&#xab; 04.01: Introduction</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/03_supervised_classification/03-06-classification-naivebayes/">&#xab; 03.06: Naive Bayes</a></li>
 
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-06-resampling-1/">04.06: Resampling 1 &#xbb;</a></li>
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-01-intro/">04.01: Introduction &#xbb;</a></li>
 
 </ul>
 
