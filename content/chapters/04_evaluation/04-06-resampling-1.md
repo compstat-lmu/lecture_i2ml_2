@@ -10,11 +10,11 @@ Different resampling techniques help to assess the performance of a learner whil
 
 ### Lecture video
 
-<!--{{< video id="NvDUk8Bxuho" >}} -->
+{{< video id="YWmC0C_NBLk" >}}
 
 ### Lecture slides
 
-<!--{{< pdfjs file="slides-evaluation-resampling.pdf" >}}  -->
+{{< pdfjs file="slides-evaluation-resampling-1.pdf" >}}
 
 ### Code demo
 
@@ -36,6 +36,7 @@ shuffle_questions: false
 
 - [x] Cross-validation, bootstrap, and subsampling are resampling techniques.
 - [x] Estimating the expected generalization error is a goal of resampling.
+- [ ] In bootstrap, each observation serves as a test point exactly once.
 - [x] In resampling, the data set is split repeatedly into training and tests sets.
 - [ ] Resampling strategies are unbiased.
 
