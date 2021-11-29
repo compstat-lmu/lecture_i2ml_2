@@ -43,12 +43,15 @@
     </item>
     
     <item>
-      <title>Chapter 04.05: Overfitting</title>
-      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting/</link>
+      <title>Chapter 04.05: Overfitting &amp; Underfitting</title>
+      <link>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting-underfitting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting/</guid>
-      <description>&lt;p&gt;When a machine learning model performs well on training data but does not generalize on the test data, we speak of overfitting. We will show you examples of this behavior and how to diagnose overfitting.&lt;/p&gt;</description>
+      <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-05-overfitting-underfitting/</guid>
+      <description>&lt;p&gt;In machine learning, we are interested in a model that captures the true underlying function and still generalizes well to new data.
+When the model fails on the first task, we speak of underfitting, and both train and test error will be high.
+On the other hand, learning the training data very well at the expense of generalization ability is referred to as overfitting and usually occurs when there is not enough data to tell our hypotheses apart.
+We will show you examples of this behavior and how to diagnose overfitting.&lt;/p&gt;</description>
     </item>
     
     <item>
