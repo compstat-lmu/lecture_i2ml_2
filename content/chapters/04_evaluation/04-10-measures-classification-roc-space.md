@@ -9,11 +9,11 @@ In this section, we explain the ROC curve and how to calculate it. In addition, 
 
 ### Lecture video
 
-<!-- {{< video id="m5We8ITYEVk" >}} -->
+{{< video id="vXGLwWjCWd0" >}}
 
 ### Lecture slides
 
-<!-- {{< pdfjs file="slides-evaluation-measures-classification-roc-space.pdf" >}} -->
+{{< pdfjs file="slides-evaluation-measures-classification-roc-space.pdf" >}}
 
 ### Code demo
 
