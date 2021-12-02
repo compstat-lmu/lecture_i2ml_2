@@ -69,8 +69,11 @@ We will show you examples of this behavior and how to diagnose overfitting.&lt;/
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-07-resampling-2/</guid>
-      <description>We provide a deep-dive on resampling, showing its superiority to holdout splitting and analyzing the bias-variance decomposition of its estimator&amp;rsquo;s MSE. We further point out the dependence between CV fold results and that hypothesis testing is therefore not applicable, and give some practical tips to choose resampling strategies.
-Lecture video   Lecture slides  Previous &amp;nbsp; Page:  /  &amp;nbsp; Next PDF     window.addEventListener(&#34;load&#34;,function(){ var url = &#39;https:\/\/slds-lmu.</description>
+      <description>&lt;p&gt;We provide a deep dive on resampling, showing its superiority to holdout
+splitting and analyzing the bias-variance decomposition of its MSE.
+We further point out the dependence between CV fold results and that
+hypothesis testing is therefore not applicable, and give some practical tips
+to choose resampling strategies.&lt;/p&gt;</description>
     </item>
     
     <item>
