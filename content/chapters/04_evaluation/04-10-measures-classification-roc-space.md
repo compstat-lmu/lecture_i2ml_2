@@ -9,7 +9,7 @@ In this section, we explain the ROC curve and how to calculate it. In addition, 
 
 ### Lecture video
 
-{{< video id="vXGLwWjCWd0" >}}
+{{< video id="91PXeV65x5Y" >}}
 
 ### Lecture slides
 
