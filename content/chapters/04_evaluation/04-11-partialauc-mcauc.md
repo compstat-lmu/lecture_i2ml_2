@@ -15,6 +15,6 @@ classification.
 
 ### Lecture slides
 
-{{< pdfjs file="slides-partialauc.pdf" >}}
+{{< pdfjs file="slides-evaluation-partialauc.pdf" >}}
 
-{{< pdfjs file="slides-mcauc.pdf" >}}
+{{< pdfjs file="slides-evaluation-mcauc.pdf" >}}

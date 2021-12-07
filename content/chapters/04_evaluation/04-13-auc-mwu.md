@@ -10,4 +10,4 @@ the Mann-Whitney-U test, both of which are effectively rank-based metrics.
 
 ### Lecture slides
 
-{{< pdfjs file="slides-auc-mwu.pdf" >}}
+{{< pdfjs file="slides-evaluation-auc-mwu.pdf" >}}
