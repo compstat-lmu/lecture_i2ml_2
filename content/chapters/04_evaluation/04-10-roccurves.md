@@ -1,5 +1,5 @@
 ---
-title: "Chapter 04.10: Measures Classification ROC Visualization"
+title: "Chapter 04.10: ROC Curves"
 weight: 4010
 quizdown: true
 ---
