@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="/i2ml/css/style.css">
 
 
-<title>Introduction to Machine Learning (I2ML) | Chapter 05.01: k-Nearest Neighbors (k-NN)</title>
+<title>Introduction to Machine Learning (I2ML) | Chapter 04.13: AUC &amp; Mann-Whitney-U Test</title>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/i2ml/apple-touch-icon.png">
@@ -46,13 +46,9 @@
         
     </nav>
 </div><div id="content" class="container">
-<h1>Chapter 05.01: k-Nearest Neighbors (k-NN)</h1>
-<p>We demonstrate that distances in feature space are crucial in \(k\)-NN regression / classification and show how we can form predictions by averaging / majority vote. In this, \(k\)-NN is a very local model and works without distributional assumptions.</p>
-<h3 id="lecture-video">Lecture video</h3>
-<div class="embedded_video">
-  <iframe src="https://www.youtube-nocookie.com/embed/BMCgd1et_2E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
+<h1>Chapter 04.13: AUC &amp; Mann-Whitney-U Test</h1>
+<p>We demonstrate that the AUC is equivalent to the normalized test statistic in
+the Mann-Whitney-U test, both of which are effectively rank-based metrics.</p>
 <h3 id="lecture-slides">Lecture slides</h3>
 
 
@@ -62,16 +58,16 @@
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_knn_pdf">
-    <button class="btn btn-primary" id="prev_slides_knn_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_auc_mwu_pdf">
+    <button class="btn btn-primary" id="prev_slides_auc_mwu_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_knn_pdf"></span> / <span id="page_count_slides_knn_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_auc_mwu_pdf"></span> / <span id="page_count_slides_auc_mwu_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_knn_pdf">Next</button>
-    <a href="https://slds-lmu.github.io/i2ml/chapters/05_knn/slides-knn.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_knn_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_auc_mwu_pdf">Next</button>
+    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-auc-mwu.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_auc_mwu_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_knn_pdf" class="ar43">
-    <canvas class="pdf-canvas" id="the-canvas_slides_knn_pdf"></canvas>
+<div id="embed-pdf-container_slides_auc_mwu_pdf" class="ar43">
+    <canvas class="pdf-canvas" id="the-canvas_slides_auc_mwu_pdf"></canvas>
 </div>
 </div>
 
@@ -79,7 +75,7 @@
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/05_knn\/slides-knn.pdf';
+var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-auc-mwu.pdf';
 var hidePaginator = "";
 
 
@@ -94,8 +90,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_knn_pdf = document.getElementById('the-canvas_slides_knn_pdf'),
-    ctx = canvas_slides_knn_pdf.getContext('2d');
+    canvas_slides_auc_mwu_pdf = document.getElementById('the-canvas_slides_auc_mwu_pdf'),
+    ctx = canvas_slides_auc_mwu_pdf.getContext('2d');
 
 
 
@@ -104,8 +100,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_knn_pdf.height = viewport.height;
-    canvas_slides_knn_pdf.width = viewport.width;
+    canvas_slides_auc_mwu_pdf.height = viewport.height;
+    canvas_slides_auc_mwu_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -126,7 +122,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_knn_pdf').textContent = num;
+  document.getElementById('page_num_slides_auc_mwu_pdf').textContent = num;
 }
 
 
@@ -142,7 +138,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_knn_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_auc_mwu_pdf").style.display = 'none';
 }
 
 
@@ -154,7 +150,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_knn_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_auc_mwu_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -165,13 +161,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_knn_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_auc_mwu_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_knn_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_auc_mwu_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -180,38 +176,16 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 </script>
 
-<h3 id="quiz">Quiz</h3>
-
-
-<div class='quizdown'>
-  
-
----
-shuffle_questions: false
----
-
-## Which statements are true? 
-
-- [x] Choosing the distance metric is a crucial design decision for $k$-NN.
-- [ ] $k$-NN can only be used for classification tasks.
-- [x] $N_k(x)$ contains the subset of the feature space $\mathcal{X}$ that is at least as close to $x$ as the $k$-th closest neighbor of $x$ in the training data set.
-- [x] 1-NN always 'predicts' perfectly on observations of the training data set (if there are no observations with equal feature but different target values).
-- [x] $k$-NN with $k = n$ always predicts the same target variable value for all possible inputs (if no weights are used).
-- [ ] $k$-NN for classification is a probabilistic classifier.
-
-
-</div>
-
 
 
 
 
 <ul class="section_skipper list-unstyled">
 
-  <li id="next_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-13-auc-mwu/">&#xab; 04.13: AUC &amp; Mann-Whitney-U Test</a></li>
+  <li id="next_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/04-12-prcurves/">&#xab; 04.12: Precision-Recall Curves</a></li>
 
 
-  <li id="prev_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/06_trees/06-01-intro/">06.01: Introduction &#xbb;</a></li>
+  <li id="prev_in_section"><a class="btn btn-primary" href="https://slds-lmu.github.io/i2ml/chapters/05_knn/05-01-knn/">05.01: k-Nearest Neighbors (k-NN) &#xbb;</a></li>
 
 </ul>
 
@@ -255,16 +229,5 @@ shuffle_questions: false
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<script 
-src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
-</script>
-<script 
-src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
-</script>
-<script 
-src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
-</script>
-<script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
-</script>
 </body>
 </html>
