@@ -3,7 +3,7 @@ title: "Chapter 04.10: ROC Curves"
 weight: 4010
 quizdown: true
 ---
-In this section, we explain the ROC curve and how to calculate it. In addition, we will present AUC and partial AUC as global performance measures.
+In this section, we explain the ROC curve and how to calculate it. In addition, we will present the AUC as a global performance measure that integrates over all possible thresholds.
 
 <!--more-->
 
