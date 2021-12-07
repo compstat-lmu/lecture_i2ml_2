@@ -64,16 +64,16 @@ classification.</p>
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_partialauc_pdf">
-    <button class="btn btn-primary" id="prev_slides_partialauc_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_evaluation_partialauc_pdf">
+    <button class="btn btn-primary" id="prev_slides_evaluation_partialauc_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_partialauc_pdf"></span> / <span id="page_count_slides_partialauc_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_evaluation_partialauc_pdf"></span> / <span id="page_count_slides_evaluation_partialauc_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_partialauc_pdf">Next</button>
-    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-partialauc.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_partialauc_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_evaluation_partialauc_pdf">Next</button>
+    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-evaluation-partialauc.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_evaluation_partialauc_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_partialauc_pdf" class="ar43">
-    <canvas class="pdf-canvas" id="the-canvas_slides_partialauc_pdf"></canvas>
+<div id="embed-pdf-container_slides_evaluation_partialauc_pdf" class="ar43">
+    <canvas class="pdf-canvas" id="the-canvas_slides_evaluation_partialauc_pdf"></canvas>
 </div>
 </div>
 
@@ -81,7 +81,7 @@ classification.</p>
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-partialauc.pdf';
+var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-evaluation-partialauc.pdf';
 var hidePaginator = "";
 
 
@@ -96,8 +96,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_partialauc_pdf = document.getElementById('the-canvas_slides_partialauc_pdf'),
-    ctx = canvas_slides_partialauc_pdf.getContext('2d');
+    canvas_slides_evaluation_partialauc_pdf = document.getElementById('the-canvas_slides_evaluation_partialauc_pdf'),
+    ctx = canvas_slides_evaluation_partialauc_pdf.getContext('2d');
 
 
 
@@ -106,8 +106,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_partialauc_pdf.height = viewport.height;
-    canvas_slides_partialauc_pdf.width = viewport.width;
+    canvas_slides_evaluation_partialauc_pdf.height = viewport.height;
+    canvas_slides_evaluation_partialauc_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -128,7 +128,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_partialauc_pdf').textContent = num;
+  document.getElementById('page_num_slides_evaluation_partialauc_pdf').textContent = num;
 }
 
 
@@ -144,7 +144,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_partialauc_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_evaluation_partialauc_pdf").style.display = 'none';
 }
 
 
@@ -156,7 +156,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_partialauc_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_evaluation_partialauc_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -167,13 +167,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_partialauc_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_evaluation_partialauc_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_partialauc_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_evaluation_partialauc_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
@@ -190,16 +190,16 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 
 <div class="pdf">
-<div class="pdf-paginator" id="paginator_slides_mcauc_pdf">
-    <button class="btn btn-primary" id="prev_slides_mcauc_pdf">Previous</button>
+<div class="pdf-paginator" id="paginator_slides_evaluation_mcauc_pdf">
+    <button class="btn btn-primary" id="prev_slides_evaluation_mcauc_pdf">Previous</button>
     &nbsp;
-    <span>Page: <span id="page_num_slides_mcauc_pdf"></span> / <span id="page_count_slides_mcauc_pdf"></span></span>
+    <span>Page: <span id="page_num_slides_evaluation_mcauc_pdf"></span> / <span id="page_count_slides_evaluation_mcauc_pdf"></span></span>
     &nbsp;
-    <button class="btn btn-primary" id="next_slides_mcauc_pdf">Next</button>
-    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-mcauc.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_mcauc_pdf">PDF</button></a>
+    <button class="btn btn-primary" id="next_slides_evaluation_mcauc_pdf">Next</button>
+    <a href="https://slds-lmu.github.io/i2ml/chapters/04_evaluation/slides-evaluation-mcauc.pdf" target="_blank"><button class="btn btn-secondary" id="next_slides_evaluation_mcauc_pdf">PDF</button></a>
 </div>
-<div id="embed-pdf-container_slides_mcauc_pdf" class="ar43">
-    <canvas class="pdf-canvas" id="the-canvas_slides_mcauc_pdf"></canvas>
+<div id="embed-pdf-container_slides_evaluation_mcauc_pdf" class="ar43">
+    <canvas class="pdf-canvas" id="the-canvas_slides_evaluation_mcauc_pdf"></canvas>
 </div>
 </div>
 
@@ -207,7 +207,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 window.addEventListener("load",function(){
 
 
-var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-mcauc.pdf';
+var url = 'https:\/\/slds-lmu.github.io\/i2ml\/chapters\/04_evaluation\/slides-evaluation-mcauc.pdf';
 var hidePaginator = "";
 
 
@@ -222,8 +222,8 @@ var pdfDoc = null,
     pageRendering = false,
     pageNumPending = null,
     scale = 3,
-    canvas_slides_mcauc_pdf = document.getElementById('the-canvas_slides_mcauc_pdf'),
-    ctx = canvas_slides_mcauc_pdf.getContext('2d');
+    canvas_slides_evaluation_mcauc_pdf = document.getElementById('the-canvas_slides_evaluation_mcauc_pdf'),
+    ctx = canvas_slides_evaluation_mcauc_pdf.getContext('2d');
 
 
 
@@ -232,8 +232,8 @@ function renderPage(num) {
   
   pdfDoc.getPage(num).then(function(page) {
     var viewport = page.getViewport({scale: scale});
-    canvas_slides_mcauc_pdf.height = viewport.height;
-    canvas_slides_mcauc_pdf.width = viewport.width;
+    canvas_slides_evaluation_mcauc_pdf.height = viewport.height;
+    canvas_slides_evaluation_mcauc_pdf.width = viewport.width;
 
     
     var renderContext = {
@@ -254,7 +254,7 @@ function renderPage(num) {
   });
 
   
-  document.getElementById('page_num_slides_mcauc_pdf').textContent = num;
+  document.getElementById('page_num_slides_evaluation_mcauc_pdf').textContent = num;
 }
 
 
@@ -270,7 +270,7 @@ function queuerenderPage(num) {
 
 
 if (hidePaginator == "true") {
-  document.getElementById("paginator_slides_mcauc_pdf").style.display = 'none';
+  document.getElementById("paginator_slides_evaluation_mcauc_pdf").style.display = 'none';
 }
 
 
@@ -282,7 +282,7 @@ function onPrevPage() {
   pageNum--;
   queuerenderPage(pageNum);
 }
-document.getElementById('prev_slides_mcauc_pdf').addEventListener('click', onPrevPage);
+document.getElementById('prev_slides_evaluation_mcauc_pdf').addEventListener('click', onPrevPage);
 
 
 
@@ -293,13 +293,13 @@ function onNextPage() {
   pageNum++;
   queuerenderPage(pageNum);
 }
-document.getElementById('next_slides_mcauc_pdf').addEventListener('click', onNextPage);
+document.getElementById('next_slides_evaluation_mcauc_pdf').addEventListener('click', onNextPage);
 
 
 
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   pdfDoc = pdfDoc_;
-  document.getElementById('page_count_slides_mcauc_pdf').textContent = pdfDoc.numPages;
+  document.getElementById('page_count_slides_evaluation_mcauc_pdf').textContent = pdfDoc.numPages;
 
   
   renderPage(pageNum);
