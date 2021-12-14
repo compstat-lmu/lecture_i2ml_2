@@ -46,7 +46,7 @@ shuffle_questions: false
 - [x] If the proportion of positive to negative instances in the test data changes, the ROC curve will not change.
 - [x] Several evaluation metrics can be derived from a confusion matrix.
 - [x] The area under the ROC curve is called AUC.
-- [ ] AUC = 0 means that the model is optimal.
+- [ ] A model with AUC=0 is the worst case.
 
 ## Which statements are true? 
 
